@@ -3,6 +3,8 @@ import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { Intro } from "./Intro";
+import { IntroVoz } from "./IntroVoz";
+import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -16,6 +18,16 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="IntroVoz"
+        component={IntroVoz}
+        durationInFrames={270}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ scenes: [] }}
+        calculateMetadata={calculateIntroVozMetadata}
       />
       <Folder name="Elements">
         <Composition
