@@ -2,8 +2,9 @@ import { Easing, Interactive, interpolate, useCurrentFrame } from "remotion";
 import { Label } from "./Label";
 import { Word } from "./Word";
 import { colors, displayFont } from "./theme";
+import { Lang, langSchema, texts } from "./texts";
 
-const BigAI = () => {
+const BigAI = ({ text }: { readonly text: string }) => {
   const frame = useCurrentFrame();
   return (
     <div
@@ -26,26 +27,29 @@ const BigAI = () => {
         }),
       }}
     >
-      IA
+      {text}
     </div>
   );
 };
 
-const SceneAIInner = () => (
+const SceneAIInner = ({ lang = "es" }: { readonly lang?: string }) => {
+  const t = texts[lang as Lang] ?? texts.es;
+  return (
   <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 20 }}>
     <Word
       delay={0}
       style={{ fontFamily: displayFont, fontWeight: 700, fontSize: 110, color: colors.ink }}
     >
-      hecho con
+      {t.madeWith}
     </Word>
-    <BigAI />
-    <Label delay={40}>Remotion × Claude × ElevenLabs</Label>
+    <BigAI text={t.ai} />
+    <Label delay={40}>{t.tools}</Label>
   </div>
-);
+  );
+};
 
 export const SceneAI = Interactive.create({
   Component: SceneAIInner,
   layout: "absolute-fill",
-  schema: { ...Interactive.backgroundSchema },
+  schema: { ...Interactive.backgroundSchema, ...langSchema },
 });

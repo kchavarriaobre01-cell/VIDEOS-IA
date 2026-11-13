@@ -24,6 +24,7 @@ export const IntroVoz = ({ scenes }: IntroVozProps) => {
       <TransitionSeries.Sequence name="Idea, guion, video" durationInFrames={s1.frames}>
         <SceneIdeas
           name="Escena ideas"
+          lang="en"
           style={{ backgroundColor: colors.ink, justifyContent: "center" }}
         />
         <Voice src={s1.audio} delay={Math.round(0.3 * fps)} />
@@ -35,6 +36,7 @@ export const IntroVoz = ({ scenes }: IntroVozProps) => {
       <TransitionSeries.Sequence name="Hecho con IA" durationInFrames={s2.frames}>
         <SceneAI
           name="Escena IA"
+          lang="en"
           style={{ backgroundColor: colors.lime, justifyContent: "center", alignItems: "center" }}
         />
         <Voice src={s2.audio} delay={transitionFrames} />
@@ -46,6 +48,7 @@ export const IntroVoz = ({ scenes }: IntroVozProps) => {
       <TransitionSeries.Sequence name="Logo" durationInFrames={s3.frames}>
         <SceneLogo
           name="Escena logo"
+          lang="en"
           style={{ backgroundColor: colors.ink, justifyContent: "center", alignItems: "center" }}
         />
         <Voice src={s3.audio} delay={transitionFrames} />

@@ -34,7 +34,8 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
-    "voz": "node scripts/generate-voiceover.mjs"
+    "voz": "node scripts/generate-voiceover.mjs",
+    "voz:elevenlabs": "node scripts/generate-voiceover-elevenlabs.mjs"
   },
   "allowScripts": {
     "esbuild": false

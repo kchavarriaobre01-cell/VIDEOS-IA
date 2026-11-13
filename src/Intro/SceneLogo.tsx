@@ -2,6 +2,7 @@ import { Easing, Interactive, interpolate, useCurrentFrame } from "remotion";
 import { Label } from "./Label";
 import { Word } from "./Word";
 import { colors, displayFont } from "./theme";
+import { Lang, langSchema, texts } from "./texts";
 
 const Bar = () => {
   const frame = useCurrentFrame();
@@ -22,7 +23,9 @@ const Bar = () => {
   );
 };
 
-const SceneLogoInner = () => (
+const SceneLogoInner = ({ lang = "es" }: { readonly lang?: string }) => {
+  const t = texts[lang as Lang] ?? texts.es;
+  return (
   <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 36 }}>
     <Word
       delay={0}
@@ -39,12 +42,13 @@ const SceneLogoInner = () => (
       VIDEOS<span style={{ color: colors.lime }}>-</span>IA
     </Word>
     <Bar />
-    <Label delay={30}>Tu estudio de video automático</Label>
+    <Label delay={30}>{t.tagline}</Label>
   </div>
-);
+  );
+};
 
 export const SceneLogo = Interactive.create({
   Component: SceneLogoInner,
   layout: "absolute-fill",
-  schema: { ...Interactive.backgroundSchema },
+  schema: { ...Interactive.backgroundSchema, ...langSchema },
 });
