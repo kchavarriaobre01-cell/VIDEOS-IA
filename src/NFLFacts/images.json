@@ -1,1 +1,794 @@
-{}
+{
+ "intro": [
+  {
+   "src": "images/nfl/2026-nfl-madrid-game-1-jpg.jpg",
+   "credit": "Badefa",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:2026_NFL_Madrid_Game_1.jpg",
+   "title": "File:2026 NFL Madrid Game 1.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/nfl/nfl-international-series-2010-jpg.jpg",
+   "credit": "Thomas from London, UK",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:NFL_International_Series_2010.jpg",
+   "title": "File:NFL International Series 2010.jpg",
+   "w": 960,
+   "h": 637
+  },
+  {
+   "src": "images/nfl/48th-fighter-wing-honor-guard-participates-during-2024-nfl-g.jpg",
+   "credit": "U.S. Air Force photo by Senior Airman Renee Nicole Finona",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:48th_Fighter_Wing_Honor_Guard_participates_during_2024_NFL_game_(8685207).jpg",
+   "title": "File:48th Fighter Wing Honor Guard participates during 2024 NFL game (8685207).jpg",
+   "w": 1280,
+   "h": 852
+  },
+  {
+   "src": "images/nfl/2026-nfl-madrid-game-2-jpg.jpg",
+   "credit": "Badefa",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:2026_NFL_Madrid_Game_2.jpg",
+   "title": "File:2026 NFL Madrid Game 2.jpg",
+   "w": 1280,
+   "h": 960
+  }
+ ],
+ "f01": [
+  {
+   "src": "images/nfl/pudge-heffelfinger-1950-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Pudge_Heffelfinger_1950.jpg",
+   "title": "File:Pudge Heffelfinger 1950.jpg",
+   "w": 960,
+   "h": 1300
+  },
+  {
+   "src": "images/nfl/orange-athletic-club-football-team-1896-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Orange_Athletic_Club_football_team_1896.jpg",
+   "title": "File:Orange Athletic Club football team 1896.jpg",
+   "w": 1280,
+   "h": 1058
+  },
+  {
+   "src": "images/nfl/w-w-pudge-heffelfinger-playing-football-for-the-university-o.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:W.W._%27Pudge%27_Heffelfinger_Playing_Football_for_the_University_of_Minnesota_-_DPLA_-_7935212944f241e3fc8c9dd71ff75833.jpg",
+   "title": "File:W.W. 'Pudge' Heffelfinger Playing Football for the University of Minnesota - DPLA - 7935212944f241e3fc8c9dd71ff75833.jpg",
+   "w": 1280,
+   "h": 1012
+  }
+ ],
+ "f02": [
+  {
+   "src": "images/nfl/hupmobile-century-custom-six-sedan-nby-9401-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hupmobile_Century_Custom_Six_Sedan_(NBY_9401).jpg",
+   "title": "File:Hupmobile Century Custom Six Sedan (NBY 9401).jpg",
+   "w": 500,
+   "h": 319
+  },
+  {
+   "src": "images/nfl/1930-hupmobile-model-a-century-jpg.jpg",
+   "credit": "Just a Man",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:1930_Hupmobile_Model_A_Century.jpg",
+   "title": "File:1930 Hupmobile Model A Century.jpg",
+   "w": 1280,
+   "h": 856
+  },
+  {
+   "src": "images/nfl/pro-football-hall-of-fame-inductee-display-jpg.jpg",
+   "credit": "Mike Russell",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pro_Football_hall_of_Fame_inductee_display.jpg",
+   "title": "File:Pro Football hall of Fame inductee display.jpg",
+   "w": 1280,
+   "h": 954
+  }
+ ],
+ "f03": [
+  {
+   "src": "images/nfl/cowboys-stadium-field-jpg.jpg",
+   "credit": "Mahanga",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium_field.jpg",
+   "title": "File:Cowboys Stadium field.jpg",
+   "w": 1280,
+   "h": 815
+  },
+  {
+   "src": "images/nfl/cowboys-stadium-2-jpg.jpg",
+   "credit": "bobbyh_80",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium_2.jpg",
+   "title": "File:Cowboys Stadium 2.jpg",
+   "w": 960,
+   "h": 640
+  },
+  {
+   "src": "images/nfl/at-t-stadium-2022-08-24-jpg.jpg",
+   "credit": "edwarddallas",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:AT%26T_Stadium_2022-08-24.jpg",
+   "title": "File:AT&T Stadium 2022-08-24.jpg",
+   "w": 1280,
+   "h": 848
+  }
+ ],
+ "f04": [
+  {
+   "src": "images/nfl/lambeau-field-jpg.jpg",
+   "credit": "JL1Row",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lambeau_Field.jpg",
+   "title": "File:Lambeau Field.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "src": "images/nfl/lambeau-field-bowl-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lambeau_Field_bowl.jpg",
+   "title": "File:Lambeau Field bowl.jpg",
+   "w": 960,
+   "h": 727
+  },
+  {
+   "src": "images/nfl/entrance-to-lambeau-field-green-bay-wisconsin-jpg.jpg",
+   "credit": "Ken Lund",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Entrance_to_Lambeau_Field,_Green_Bay,_Wisconsin.jpg",
+   "title": "File:Entrance to Lambeau Field, Green Bay, Wisconsin.jpg",
+   "w": 1280,
+   "h": 959
+  }
+ ],
+ "f05": [
+  {
+   "src": "images/nfl/lamar-hunt-1974-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Lamar_Hunt_1974.jpg",
+   "title": "File:Lamar Hunt 1974.jpg",
+   "w": 500,
+   "h": 680
+  },
+  {
+   "src": "images/nfl/colorful-super-ball-large-png.jpg",
+   "credit": "高橋 宗史",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Colorful_Super_ball_Large.png",
+   "title": "File:Colorful Super ball Large.png",
+   "w": 1280,
+   "h": 901
+  },
+  {
+   "src": "images/nfl/bouncing-ball-strobe-edit-jpg.jpg",
+   "credit": "MichaelMaggs Edit by Richard Bartz",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bouncing_ball_strobe_edit.jpg",
+   "title": "File:Bouncing ball strobe edit.jpg",
+   "w": 1280,
+   "h": 824
+  }
+ ],
+ "f06": [
+  {
+   "src": "images/nfl/aerial-view-of-los-angeles-memorial-coliseum-1987-jpg.jpg",
+   "credit": "Thomas Kelsey, Los Angeles Times",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Los_Angeles_Memorial_Coliseum,_1987.jpg",
+   "title": "File:Aerial view of Los Angeles Memorial Coliseum, 1987.jpg",
+   "w": 1280,
+   "h": 848
+  },
+  {
+   "src": "images/nfl/super-bowl-i-ring-nfl-draft-experience-2021-jpg.jpg",
+   "credit": "Cards84664",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_I_Ring_-_NFL_Draft_Experience_2021.jpg",
+   "title": "File:Super Bowl I Ring - NFL Draft Experience 2021.jpg",
+   "w": 960,
+   "h": 968
+  },
+  {
+   "src": "images/nfl/los-angeles-memorial-coliseum-3911-s-figueroa-st-university-.jpg",
+   "credit": "MikeJiroch",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Memorial_Coliseum,_3911_S._Figueroa_St._University_Park_16.jpg",
+   "title": "File:Los Angeles Memorial Coliseum, 3911 S. Figueroa St. University Park 16.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f07": [
+  {
+   "src": "images/nfl/thomas-davis-max-garcia-charles-johnson-super-bowl-50-jpg.jpg",
+   "credit": "Arnie Papp",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Thomas_Davis,_Max_Garcia,_Charles_Johnson_Super_Bowl_50.jpg",
+   "title": "File:Thomas Davis, Max Garcia, Charles Johnson Super Bowl 50.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/super-bowl-50-24922945221-jpg.jpg",
+   "credit": "Arnie Papp",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_50_(24922945221).jpg",
+   "title": "File:Super Bowl 50 (24922945221).jpg",
+   "w": 1280,
+   "h": 714
+  },
+  {
+   "src": "images/nfl/graham-gano-super-bowl-50-jpg.jpg",
+   "credit": "Arnie Papp",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Graham_Gano_Super_Bowl_50.jpg",
+   "title": "File:Graham Gano Super Bowl 50.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f08": [
+  {
+   "src": "images/nfl/vince-lombardi-trophy-visits-the-pennsylvania-capitol-418445.jpg",
+   "credit": "Governor Tom Wolf from Harrisburg, PA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Vince_Lombardi_Trophy_Visits_the_Pennsylvania_Capitol_(41844569054).jpg",
+   "title": "File:Vince Lombardi Trophy Visits the Pennsylvania Capitol (41844569054).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/strahan-and-coughlin-lombardi-trophy-2245539212-jpg.jpg",
+   "credit": "Ted Kerwin",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Strahan_and_Coughlin_Lombardi_Trophy_(2245539212).jpg",
+   "title": "File:Strahan and Coughlin Lombardi Trophy (2245539212).jpg",
+   "w": 1280,
+   "h": 1023
+  },
+  {
+   "src": "images/nfl/lombardi-trophy-at-lambeau-field-jpg.jpg",
+   "credit": "Gonzo fan2007",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lombardi_Trophy_at_Lambeau_Field.jpg",
+   "title": "File:Lombardi Trophy at Lambeau Field.jpg",
+   "w": 1280,
+   "h": 2274
+  }
+ ],
+ "f09": [
+  {
+   "src": "images/nfl/wilson-the-duke-nfl-football-jpg.jpg",
+   "credit": "Jjanhone",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilson_The_Duke_NFL_football.jpg",
+   "title": "File:Wilson The Duke NFL football.jpg",
+   "w": 1280,
+   "h": 1023
+  },
+  {
+   "src": "images/nfl/wilson-nfl-game-ball-jpg.jpg",
+   "credit": "Euan Morrison",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilson_NFL_game_ball.jpg",
+   "title": "File:Wilson NFL game ball.jpg",
+   "w": 1280,
+   "h": 874
+  },
+  {
+   "src": "images/nfl/wilson-extreme-football-jpg.jpg",
+   "credit": "HordeFTL",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilson_Extreme_football.jpg",
+   "title": "File:Wilson Extreme football.jpg",
+   "w": 500,
+   "h": 321
+  }
+ ],
+ "f10": [
+  {
+   "src": "images/nfl/betty-ford-s-monday-night-football-game-ball-1975-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Betty_Ford%27s_%22Monday_Night_Football%22_game_ball,_1975.jpg",
+   "title": "File:Betty Ford's \"Monday Night Football\" game ball, 1975.jpg",
+   "w": 1280,
+   "h": 1024
+  },
+  {
+   "src": "images/nfl/nfl-super-bowl-xlvii-official-game-football-8448656193-jpg.jpg",
+   "credit": "Austin Kirk",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:NFL_Super_Bowl_XLVII_Official_Game_Football_(8448656193).jpg",
+   "title": "File:NFL Super Bowl XLVII Official Game Football (8448656193).jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/nfl/2004-northeastern-navy-game-quintin-mitchell-jpg.jpg",
+   "credit": "Damon J. Moritz",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:2004_Northeastern-Navy_Game_Quintin_Mitchell.jpg",
+   "title": "File:2004 Northeastern-Navy Game Quintin Mitchell.jpg",
+   "w": 1280,
+   "h": 1729
+  }
+ ],
+ "f11": [
+  {
+   "src": "images/nfl/theodore-roosevelt-by-the-pach-bros-jpg.jpg",
+   "credit": "Adam Cuerden",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg",
+   "title": "File:Theodore Roosevelt by the Pach Bros.jpg",
+   "w": 1280,
+   "h": 1527
+  },
+  {
+   "src": "images/nfl/clyde-scott-with-ball-1949-nfl-championship-jpg.jpg",
+   "credit": "Unknown",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Clyde_Scott_with_ball_1949_NFL_Championship.jpg",
+   "title": "File:Clyde Scott with ball 1949 NFL Championship.jpg",
+   "w": 1280,
+   "h": 1452
+  },
+  {
+   "src": "images/nfl/theodore-rooseveltnewtry-jpg.jpg",
+   "credit": "B.J. Falk (1853-1925)",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Theodore_Rooseveltnewtry.jpg",
+   "title": "File:Theodore Rooseveltnewtry.jpg",
+   "w": 500,
+   "h": 739
+  }
+ ],
+ "f12": [
+  {
+   "src": "images/nfl/28-perfection-the-17-0-1972-dolphins-2023-jpg.jpg",
+   "credit": "Jg772010",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:28_-_Perfection,_The_17-0_1972_Dolphins_(2023).jpg",
+   "title": "File:28 - Perfection, The 17-0 1972 Dolphins (2023).jpg",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "src": "images/nfl/potus-1973-dolphins-jpg.jpg",
+   "credit": "Pete Souza",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Potus-1973-dolphins.jpg",
+   "title": "File:Potus-1973-dolphins.jpg",
+   "w": 960,
+   "h": 640
+  },
+  {
+   "src": "images/nfl/don-shula-uso-tour-uss-reagan-address-july-13-2009-jpg.jpg",
+   "credit": "U.S. Navy Petty Officer 1st Class Chad J. McNeeley",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Don-Shula_USO-Tour-USS-Reagan-Address_July-13-2009.jpg",
+   "title": "File:Don-Shula USO-Tour-USS-Reagan-Address July-13-2009.jpg",
+   "w": 1280,
+   "h": 851
+  }
+ ],
+ "f13": [
+  {
+   "src": "images/nfl/tom-brady-2019-jpg.jpg",
+   "credit": "Alexander Jonesi",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tom_Brady_2019.jpg",
+   "title": "File:Tom Brady 2019.jpg",
+   "w": 960,
+   "h": 1255
+  },
+  {
+   "src": "images/nfl/tom-brady-blocked-6837565229-jpg.jpg",
+   "credit": "SAB0TEUR",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tom_Brady_blocked._(6837565229).jpg",
+   "title": "File:Tom Brady blocked. (6837565229).jpg",
+   "w": 1280,
+   "h": 1155
+  },
+  {
+   "src": "images/nfl/tom-brady-2017-jpg.jpg",
+   "credit": "Jeffrey Beall",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tom_Brady_2017.JPG",
+   "title": "File:Tom Brady 2017.JPG",
+   "w": 1280,
+   "h": 1363
+  }
+ ],
+ "f14": [
+  {
+   "src": "images/nfl/george-blanda-bowman-card-1954-crop-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:George_blanda_bowman_card_1954_(crop).jpg",
+   "title": "File:George blanda bowman card 1954 (crop).jpg",
+   "w": 500,
+   "h": 510
+  },
+  {
+   "src": "images/nfl/1956-topps-george-blanda-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:1956_topps_george_blanda.jpg",
+   "title": "File:1956 topps george blanda.jpg",
+   "w": 500,
+   "h": 712
+  },
+  {
+   "src": "images/nfl/george-blanda-bowman-card-1954-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:George_blanda_bowman_card_1954.jpg",
+   "title": "File:George blanda bowman card 1954.jpg",
+   "w": 500,
+   "h": 750
+  }
+ ],
+ "f15": [
+  {
+   "src": "images/nfl/snow-brush-at-lambeau-2192067850-jpg.jpg",
+   "credit": "relux.",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Snow_Brush_at_Lambeau_(2192067850).jpg",
+   "title": "File:Snow Brush at Lambeau (2192067850).jpg",
+   "w": 500,
+   "h": 376
+  },
+  {
+   "src": "images/nfl/lambeau-field-4170779123-jpg.jpg",
+   "credit": "relux.",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lambeau_Field_(4170779123).jpg",
+   "title": "File:Lambeau Field (4170779123).jpg",
+   "w": 500,
+   "h": 334
+  },
+  {
+   "src": "images/nfl/snow-brush-at-lambeau-2192067850-1-jpg.jpg",
+   "credit": "relux.",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Snow_Brush_at_Lambeau_(2192067850)_(1).jpg",
+   "title": "File:Snow Brush at Lambeau (2192067850) (1).jpg",
+   "w": 500,
+   "h": 340
+  }
+ ],
+ "f16": [
+  {
+   "src": "images/nfl/jerry-rice-jersey-jpg.jpg",
+   "credit": "Ryan Schreiber",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerry_Rice_jersey.jpg",
+   "title": "File:Jerry Rice jersey.jpg",
+   "w": 960,
+   "h": 1280
+  },
+  {
+   "src": "images/nfl/super-bowl-44-miami-florida-nfl-network-south-beach-set-deon.jpg",
+   "credit": "Anthony Quintano from Honolulu, HI, United States",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_(4331549867)_(cropped)_-_Jerry_Rice.jpg",
+   "title": "File:Super Bowl 44 Miami Florida NFL Network South Beach Set Deon Sanders interviews Jerry Rice (4331549867) (cropped) - Jerry Rice.jpg",
+   "w": 500,
+   "h": 667
+  },
+  {
+   "src": "images/nfl/jerry-rice-2016-pro-bowl-cropped-jpg.jpg",
+   "credit": "Sgt. 1st Class John Brown",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Jerry_Rice_2016_Pro_Bowl_(cropped).jpg",
+   "title": "File:Jerry Rice 2016 Pro Bowl (cropped).jpg",
+   "w": 500,
+   "h": 625
+  }
+ ],
+ "f17": [
+  {
+   "src": "images/nfl/emmittsmith2007-jpg.jpg",
+   "credit": "John Trainor",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:EmmittSmith2007.jpg",
+   "title": "File:EmmittSmith2007.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/super-bowl-44-emmitt-smith-4344089199-jpg.jpg",
+   "credit": "Anthony Quintano from Honolulu, HI, United States",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Emmitt_Smith_(4344089199).jpg",
+   "title": "File:Super Bowl 44 Emmitt Smith (4344089199).jpg",
+   "w": 1280,
+   "h": 1857
+  },
+  {
+   "src": "images/nfl/super-bowl-44-emmitt-smith-4344089199-cropped-jpg.jpg",
+   "credit": "Anthony Quintano from Honolulu, HI, United States",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Emmitt_Smith_(4344089199)_(cropped).jpg",
+   "title": "File:Super Bowl 44 Emmitt Smith (4344089199) (cropped).jpg",
+   "w": 1280,
+   "h": 1924
+  }
+ ],
+ "f18": [
+  {
+   "src": "images/nfl/pro-football-hall-of-fame-23944954377-jpg.jpg",
+   "credit": "Erik Drost",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pro_Football_Hall_of_Fame_(23944954377).jpg",
+   "title": "File:Pro Football Hall of Fame (23944954377).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/bruce-picture-jpg.jpg",
+   "credit": "JustinMetzger23",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bruce_picture.jpg",
+   "title": "File:Bruce picture.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "src": "images/nfl/pro-football-hall-of-fame-11282383106-jpg.jpg",
+   "credit": "Erik Drost",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pro_Football_Hall_of_Fame_(11282383106).jpg",
+   "title": "File:Pro Football Hall of Fame (11282383106).jpg",
+   "w": 1280,
+   "h": 848
+  }
+ ],
+ "f19": [
+  {
+   "src": "images/nfl/jason-kelce-commentating-for-monday-night-football-broadcast.jpg",
+   "credit": "James Larrison from Scottsdale, AZ, USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Jason_Kelce_commentating_for_Monday_Night_Football_broadcast_on_ESPN_of_January_13,_2025_NFL_Playoff_NFC_wildcard_game_between_the_Los_Angeles_Rams_and_the_Minnesota_Vikings_at_State_Farm_Stadium_in_Arizona.jpg",
+   "title": "File:Jason Kelce commentating for Monday Night Football broadcast on ESPN of January 13, 2025 NFL Playoff NFC wildcard game between the Los Angeles Rams and the Minnesota Vikings at State Farm Stadium in Arizona.jpg",
+   "w": 1280,
+   "h": 1707
+  },
+  {
+   "src": "images/nfl/tom-brady-blocked-6837565229-jpg.jpg",
+   "credit": "SAB0TEUR",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tom_Brady_blocked._(6837565229).jpg",
+   "title": "File:Tom Brady blocked. (6837565229).jpg",
+   "w": 1280,
+   "h": 1155
+  },
+  {
+   "src": "images/nfl/graham-gano-super-bowl-50-jpg.jpg",
+   "credit": "Arnie Papp",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Graham_Gano_Super_Bowl_50.jpg",
+   "title": "File:Graham Gano Super Bowl 50.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f20": [
+  {
+   "src": "images/nfl/franco-harris-obama-rally-january-2009-jpg.jpg",
+   "credit": "Cliff from Arlington, Virginia, USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Franco_Harris_Obama_Rally_January_2009.jpg",
+   "title": "File:Franco Harris Obama Rally January 2009.jpg",
+   "w": 960,
+   "h": 714
+  },
+  {
+   "src": "images/nfl/franco-harris-autograph-feb-12-2009-jpg.jpg",
+   "credit": "Mass Communication Specialist 2nd Class Tanner Lange",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Franco_Harris_-_Autograph_-_Feb_12_2009.jpg",
+   "title": "File:Franco Harris - Autograph - Feb 12 2009.jpg",
+   "w": 1280,
+   "h": 914
+  },
+  {
+   "src": "images/nfl/threeriversstadium-jpg.jpg",
+   "credit": "User MaxVeers on en.wikipedia",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:ThreeRiversStadium.jpg",
+   "title": "File:ThreeRiversStadium.jpg",
+   "w": 500,
+   "h": 375
+  }
+ ],
+ "f21": [
+  {
+   "src": "images/nfl/homemade-buffalo-wings-jpg.jpg",
+   "credit": "stef yau",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Homemade_buffalo_wings.jpg",
+   "title": "File:Homemade buffalo wings.jpg",
+   "w": 500,
+   "h": 375
+  },
+  {
+   "src": "images/nfl/chicken-wings-and-vegan-nuggets-lost-boys-chicken-2023-11-12.jpg",
+   "credit": "Andy Li",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_wings_and_vegan_nuggets_-_Lost_Boys_Chicken_2023-11-12.jpg",
+   "title": "File:Chicken wings and vegan nuggets - Lost Boys Chicken 2023-11-12.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/nfl/chicken-wings-it-s-been-a-while-baton-rouge-la-2026-jpg.jpg",
+   "credit": "Paul Lowry",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_Wings-_It%27s_been_a_while._Baton_Rouge_LA_2026.jpg",
+   "title": "File:Chicken Wings- It's been a while. Baton Rouge LA 2026.jpg",
+   "w": 1280,
+   "h": 865
+  }
+ ],
+ "f22": [
+  {
+   "src": "images/nfl/super-bowl-liv-halftime-show-49607213091-cropped-jpg.jpg",
+   "credit": "elisfkc2",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_LIV_Halftime_Show_(49607213091)_(cropped).jpg",
+   "title": "File:Super Bowl LIV Halftime Show (49607213091) (cropped).jpg",
+   "w": 1280,
+   "h": 706
+  },
+  {
+   "src": "images/nfl/super-bowl-xlv-halftime-show-6841841079-cropped1-jpg.jpg",
+   "credit": "John Seb Barber from Leeds, UK",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_XLV_halftime_show_(6841841079)_(cropped1).jpg",
+   "title": "File:Super Bowl XLV halftime show (6841841079) (cropped1).jpg",
+   "w": 1280,
+   "h": 756
+  },
+  {
+   "src": "images/nfl/halftime-show-at-super-bowl-2013-jpg.jpg",
+   "credit": "djanimal",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Halftime_Show_at_Super_Bowl_2013.jpg",
+   "title": "File:Halftime Show at Super Bowl 2013.jpg",
+   "w": 500,
+   "h": 500
+  }
+ ],
+ "f23": [
+  {
+   "src": "images/nfl/leather-football-helmet-circa-1930-s-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Leather_football_helmet_(circa_1930%27s).JPG",
+   "title": "File:Leather football helmet (circa 1930's).JPG",
+   "w": 1280,
+   "h": 1600
+  },
+  {
+   "src": "images/nfl/fritz-pollard-football-player-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Fritz_Pollard_football_player.jpg",
+   "title": "File:Fritz Pollard football player.jpg",
+   "w": 1280,
+   "h": 1910
+  },
+  {
+   "src": "images/nfl/pete-schaffnit-senior-football-fall-1921-jpg.jpg",
+   "credit": "Hattie Schaffnit, mother",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pete_Schaffnit_Senior_Football_Fall_1921.jpg",
+   "title": "File:Pete Schaffnit Senior Football Fall 1921.jpg",
+   "w": 500,
+   "h": 821
+  }
+ ],
+ "f24": [
+  {
+   "src": "images/nfl/ralph-wilson-stadium-nfl-buffalo-bills-orchard-park-ny-jpg.jpg",
+   "credit": "Dan Schoedel, Idibri",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ralph_Wilson_Stadium_(NFL_Buffalo_Bills)_-_Orchard_Park,_NY.jpg",
+   "title": "File:Ralph Wilson Stadium (NFL Buffalo Bills) - Orchard Park, NY.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/highmark-stadium-interior-empty-jpg.jpg",
+   "credit": "Quintin Soloviev",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Highmark_Stadium_interior_empty.jpg",
+   "title": "File:Highmark Stadium interior empty.jpg",
+   "w": 1280,
+   "h": 819
+  },
+  {
+   "src": "images/nfl/bills-jpg.jpg",
+   "credit": "User Evilarry on en.wikipedia",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Bills.jpg",
+   "title": "File:Bills.jpg",
+   "w": 500,
+   "h": 333
+  }
+ ],
+ "f25": [
+  {
+   "src": "images/nfl/2023-llsws-day-8-53117528678-jpg.jpg",
+   "credit": "City of Greenville, North Carolina",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_LLSWS_%E2%80%94_Day_8_(53117528678).jpg",
+   "title": "File:2023 LLSWS — Day 8 (53117528678).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/2023-llsws-day-8-53117528688-jpg.jpg",
+   "credit": "City of Greenville, North Carolina",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_LLSWS_%E2%80%94_Day_8_(53117528688).jpg",
+   "title": "File:2023 LLSWS — Day 8 (53117528688).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/nfl/gatorade-shower-jpg.jpg",
+   "credit": "Lance Cpl. Fredrick Coleman",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Gatorade_shower.jpg",
+   "title": "File:Gatorade shower.jpg",
+   "w": 1280,
+   "h": 1920
+  }
+ ],
+ "outro": [
+  {
+   "src": "images/nfl/a-night-game-at-duane-stadium-at-merrimack-college-jpg.jpg",
+   "credit": "Kenneth C. Zirkel",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:A_night_game_at_Duane_Stadium_at_Merrimack_College.jpg",
+   "title": "File:A night game at Duane Stadium at Merrimack College.jpg",
+   "w": 1280,
+   "h": 707
+  },
+  {
+   "src": "images/nfl/peden-stadium-at-night-jpg.jpg",
+   "credit": "NotJamestack",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Peden_Stadium_at_Night.jpg",
+   "title": "File:Peden Stadium at Night.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/nfl/roosevelt-stadium-night-2-jpg.jpg",
+   "credit": "JonRidinger",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Roosevelt_Stadium_night_2.jpg",
+   "title": "File:Roosevelt Stadium night 2.jpg",
+   "w": 1280,
+   "h": 596
+  }
+ ]
+}
