@@ -6,8 +6,8 @@ import { execFileSync } from "node:child_process";
 import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { KokoroTTS } from "kokoro-js";
 
-const VOICE = process.env.KOKORO_VOICE || "af_heart";
-const SPEED = Number(process.env.KOKORO_SPEED || 0.95);
+const VOICE = process.env.KOKORO_VOICE || "af_bella";
+const SPEED = Number(process.env.KOKORO_SPEED || 1.0);
 // Tono: 1 = normal, 1.19 = caricatura suave, 1.33 = caricatura, 1.5 = ardilla. No cambia la duración.
 const HAS_FFMPEG = (() => {
   try {
@@ -18,7 +18,7 @@ const HAS_FFMPEG = (() => {
   }
 })();
 const PUNCH = "equalizer=f=3000:t=q:w=1:g=2,acompressor=threshold=-20dB:ratio=2.5:makeup=2";
-const PITCH = Number(process.env.VOICE_PITCH || 1.12);
+const PITCH = Number(process.env.VOICE_PITCH || 1.28);
 const FPS = 30;
 const LEAD = 20; // frames de silencio al inicio de cada escena
 const GAP = 10; // frames extra entre frases

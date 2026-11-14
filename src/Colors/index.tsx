@@ -391,7 +391,7 @@ const musicVolume = (frame: number) => {
   let sum = 0;
   for (let k = -8; k < 8; k++) sum += speaking[Math.min(colorsTotalFrames - 1, Math.max(0, f + k))] ?? 0;
   const fadeOut = Math.max(0, Math.min(1, (colorsTotalFrames - f) / 60));
-  return (0.32 - 0.2 * (sum / 16)) * fadeOut;
+  return (0.6 - 0.28 * (sum / 16)) * fadeOut;
 };
 
 export const Colors = () => (

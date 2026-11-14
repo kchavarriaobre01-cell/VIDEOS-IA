@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const SR = 44100;
-const BPM = 112;
+const BPM = 124;
 const BARS = 8;
 const beat = 60 / BPM;
 const LEN = Math.round(BARS * 4 * beat * SR);
@@ -41,7 +41,7 @@ for (let b = 0; b < BARS; b++) {
   const c = chords[b % 4];
   // Bajo: negras sobre la raíz con un saltito a la quinta.
   [0, 1, 2, 3].forEach((k) => {
-    const f = mtof(c.root + (k === 3 ? 7 : 0));
+    const f = mtof(c.root + (k % 2 ? 7 : 0));
     add(at(b, k), Math.round(beat * 0.9 * SR), (t) => 0.16 * Math.exp(-t * 3) * Math.min(1, t / 0.005) * (Math.sin(2 * Math.PI * f * t) + 0.3 * Math.sin(4 * Math.PI * f * t)));
   });
   // Acordes suaves tipo ukelele en los contratiempos.
@@ -55,11 +55,15 @@ for (let b = 0; b < BARS; b++) {
   melody[b].forEach((m, k) => {
     if (m === null) return;
     const f = mtof(m);
-    add(at(b, k / 2), Math.round(1.2 * SR), (t) => 0.09 * Math.exp(-t * 5) * Math.min(1, t / 0.002) * (Math.sin(2 * Math.PI * f * t) + 0.25 * Math.exp(-t * 20) * Math.sin(2 * Math.PI * f * 4 * t)));
+    add(at(b, k / 2), Math.round(1.2 * SR), (t) => 0.11 * Math.exp(-t * 5) * Math.min(1, t / 0.002) * (Math.sin(2 * Math.PI * f * t) + 0.25 * Math.exp(-t * 20) * Math.sin(2 * Math.PI * f * 4 * t)));
+    // Glockenspiel (campanitas de juguete) una octava arriba.
+    const g = f * 2;
+    add(at(b, k / 2), Math.round(1.5 * SR), (t) => 0.045 * Math.exp(-t * 3.5) * Math.min(1, t / 0.001) * (Math.sin(2 * Math.PI * g * t) + 0.4 * Math.sin(2 * Math.PI * g * 2.76 * t) * Math.exp(-t * 8)));
   });
   // Bombo suave (1 y 3), palmas (2 y 4), shaker en corcheas.
   [0, 2].forEach((k) => add(at(b, k), Math.round(0.3 * SR), (t) => 0.32 * Math.exp(-t * 14) * Math.sin(2 * Math.PI * (55 + 90 * Math.exp(-t * 35)) * t)));
-  [1, 3].forEach((k) => add(at(b, k), Math.round(0.2 * SR), (t) => 0.1 * Math.exp(-t * 28) * noise()));
+  [1, 3].forEach((k) => add(at(b, k), Math.round(0.2 * SR), (t) => 0.16 * Math.exp(-t * 26) * noise()));
+  if (b % 2 === 1) add(at(b, 3.5), Math.round(0.4 * SR), (t) => 0.06 * Math.exp(-t * 6) * Math.sin(2 * Math.PI * (300 + 500 * t) * t));
   for (let k = 0; k < 8; k++) add(at(b, k / 2), Math.round(0.06 * SR), (t) => (k % 2 ? 0.025 : 0.04) * Math.exp(-t * 70) * noise());
 }
 
