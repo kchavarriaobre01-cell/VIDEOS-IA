@@ -39,7 +39,9 @@
     "voz:basket": "node scripts/generate-basket-voice.mjs",
     "musica": "node scripts/generate-music.mjs",
     "voz:animals": "node scripts/generate-animals-voice.mjs",
-    "musica:animals": "node scripts/generate-ambient-music.mjs"
+    "musica:animals": "node scripts/generate-ambient-music.mjs",
+    "voz:colors": "node scripts/generate-colors-voice.mjs",
+    "musica:colors": "node scripts/generate-kids-music.mjs"
   },
   "allowScripts": {
     "esbuild": false

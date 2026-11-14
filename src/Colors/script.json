@@ -1,0 +1,275 @@
+{
+ "intro": [
+  "Hi, friends! I'm Pip, and I love to paint!",
+  "Today, we are going to learn colors together.",
+  "When you see a magic paint button, help me tap it!",
+  "Are you ready? Let's go!"
+ ],
+ "colors": [
+  {
+   "id": "red",
+   "color": "#E53935",
+   "word": "Red",
+   "objects": [
+    {
+     "icon": "apple",
+     "label": "apple"
+    },
+    {
+     "icon": "strawberry",
+     "label": "strawberry"
+    },
+    {
+     "icon": "firetruck",
+     "label": "fire truck"
+    }
+   ],
+   "sentences": [
+    "Look, a magic paint button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is red!",
+    "Red!",
+    "Can you say red?",
+    "An apple is red.",
+    "A strawberry is red.",
+    "A fire truck is red.",
+    "Red, red, red! Great job!"
+   ]
+  },
+  {
+   "id": "orange",
+   "color": "#FB8C00",
+   "word": "Orange",
+   "objects": [
+    {
+     "icon": "orange",
+     "label": "orange"
+    },
+    {
+     "icon": "carrot",
+     "label": "carrot"
+    },
+    {
+     "icon": "pumpkin",
+     "label": "pumpkin"
+    }
+   ],
+   "sentences": [
+    "Ooh, another magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is orange!",
+    "Orange!",
+    "Can you say orange?",
+    "An orange is orange.",
+    "A carrot is orange.",
+    "A pumpkin is orange.",
+    "Orange, orange, orange! Great job!"
+   ]
+  },
+  {
+   "id": "yellow",
+   "color": "#FDD835",
+   "word": "Yellow",
+   "objects": [
+    {
+     "icon": "banana",
+     "label": "banana"
+    },
+    {
+     "icon": "sun",
+     "label": "sun"
+    },
+    {
+     "icon": "duck",
+     "label": "little duck"
+    }
+   ],
+   "sentences": [
+    "Here's a new magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is yellow!",
+    "Yellow!",
+    "Can you say yellow?",
+    "A banana is yellow.",
+    "The sun is yellow.",
+    "A little duck is yellow.",
+    "Yellow, yellow, yellow! Great job!"
+   ]
+  },
+  {
+   "id": "green",
+   "color": "#43A047",
+   "word": "Green",
+   "objects": [
+    {
+     "icon": "leaf",
+     "label": "leaf"
+    },
+    {
+     "icon": "frog",
+     "label": "frog"
+    },
+    {
+     "icon": "tree",
+     "label": "tree"
+    }
+   ],
+   "sentences": [
+    "Look, another button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is green!",
+    "Green!",
+    "Can you say green?",
+    "A leaf is green.",
+    "A frog is green.",
+    "A tree is green.",
+    "Green, green, green! Great job!"
+   ]
+  },
+  {
+   "id": "blue",
+   "color": "#1E88E5",
+   "word": "Blue",
+   "objects": [
+    {
+     "icon": "whale",
+     "label": "whale"
+    },
+    {
+     "icon": "blueberry",
+     "label": "blueberry"
+    },
+    {
+     "icon": "raindrop",
+     "label": "raindrop"
+    }
+   ],
+   "sentences": [
+    "Wow, a magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is blue!",
+    "Blue!",
+    "Can you say blue?",
+    "A whale is blue.",
+    "A blueberry is blue.",
+    "A raindrop is blue.",
+    "Blue, blue, blue! Great job!"
+   ]
+  },
+  {
+   "id": "purple",
+   "color": "#8E24AA",
+   "word": "Purple",
+   "objects": [
+    {
+     "icon": "grapes",
+     "label": "grapes"
+    },
+    {
+     "icon": "eggplant",
+     "label": "eggplant"
+    },
+    {
+     "icon": "plum",
+     "label": "plum"
+    }
+   ],
+   "sentences": [
+    "Oh, look! A magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is purple!",
+    "Purple!",
+    "Can you say purple?",
+    "Grapes are purple.",
+    "An eggplant is purple.",
+    "A plum is purple.",
+    "Purple, purple, purple! Great job!"
+   ]
+  },
+  {
+   "id": "pink",
+   "color": "#F06292",
+   "word": "Pink",
+   "objects": [
+    {
+     "icon": "pig",
+     "label": "pig"
+    },
+    {
+     "icon": "icecream",
+     "label": "ice cream"
+    },
+    {
+     "icon": "flower",
+     "label": "flower"
+    }
+   ],
+   "sentences": [
+    "Another magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is pink!",
+    "Pink!",
+    "Can you say pink?",
+    "A pig is pink.",
+    "An ice cream is pink.",
+    "A flower is pink.",
+    "Pink, pink, pink! Great job!"
+   ]
+  },
+  {
+   "id": "brown",
+   "color": "#8D6E63",
+   "word": "Brown",
+   "objects": [
+    {
+     "icon": "teddy",
+     "label": "teddy bear"
+    },
+    {
+     "icon": "cookie",
+     "label": "cookie"
+    },
+    {
+     "icon": "acorn",
+     "label": "acorn"
+    }
+   ],
+   "sentences": [
+    "The last magic button!",
+    "Let's tap it together.",
+    "One, two, three!",
+    "Wow! Everything is brown!",
+    "Brown!",
+    "Can you say brown?",
+    "A teddy bear is brown.",
+    "A cookie is brown.",
+    "An acorn is brown.",
+    "Brown, brown, brown! Great job!"
+   ]
+  }
+ ],
+ "review": [
+  "Let's remember all our colors!",
+  "Red!",
+  "Orange!",
+  "Yellow!",
+  "Green!",
+  "Blue!",
+  "Purple!",
+  "Pink!",
+  "Brown!"
+ ],
+ "outro": [
+  "You did amazing!",
+  "Now you know eight colors.",
+  "Look around you. What colors can you see?",
+  "Bye-bye, friends! See you next time!"
+ ]
+}

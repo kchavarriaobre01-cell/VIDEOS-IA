@@ -5,6 +5,7 @@ import { Title } from "./HelloWorld/Title";
 import { BasketFacts, basketTotalFrames } from "./BasketFacts";
 import { BasketShort, calculateShortMetadata, shortSchema } from "./BasketFacts/Short";
 import { Thumbnail } from "./BasketFacts/Thumbnail";
+import { Colors, colorsTotalFrames } from "./Colors";
 import { Animals, animalsTotalFrames } from "./Animals";
 import { AnimalShort, animalShortSchema, calculateAnimalShortMetadata } from "./Animals/Short";
 import { AnimalsThumbnail } from "./Animals/Thumbnail";
@@ -17,6 +18,7 @@ import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="Colors" component={Colors} durationInFrames={colorsTotalFrames} fps={30} width={1920} height={1080} />
       <Composition id="Animals" component={Animals} durationInFrames={animalsTotalFrames} fps={30} width={1920} height={1080} />
       <Composition
         id="AnimalShort"
