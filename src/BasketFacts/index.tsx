@@ -1,7 +1,6 @@
 import { Audio } from "@remotion/media";
-import { useMemo } from "react";
 import { AbsoluteFill, Series, staticFile, useCurrentFrame } from "remotion";
-import { Avatar, AvatarEntrance } from "./Avatar";
+import { BouncingBall } from "./Ball";
 import { Background } from "./Background";
 import { FactScene } from "./FactScene";
 import { ProgressBar } from "./ProgressBar";
@@ -26,8 +25,28 @@ const Progress = () => {
   return <ProgressBar current={seg} />;
 };
 
+// 1 cuando la voz está hablando, 0 en las pausas (para bajar la música bajo la voz).
+const speaking = (() => {
+  const arr = new Uint8Array(basketTotalFrames);
+  segments.forEach((seg, i) => {
+    for (const s of seg.sentences) arr.fill(1, starts[i] + s.from - 4, starts[i] + s.from + s.frames + 4);
+  });
+  return arr;
+})();
+
+const MUSIC_TALKING = 0.07;
+const MUSIC_PAUSE = 0.2;
+
+const musicVolume = (f: number) => {
+  // Promedio de 16 frames alrededor para que el volumen cambie suave.
+  let sum = 0;
+  for (let k = -8; k < 8; k++) sum += speaking[Math.min(basketTotalFrames - 1, Math.max(0, f + k))];
+  const talk = sum / 16;
+  const fadeOut = Math.min(1, (basketTotalFrames - f) / 60);
+  return (MUSIC_PAUSE - (MUSIC_PAUSE - MUSIC_TALKING) * talk) * fadeOut;
+};
+
 export const BasketFacts = () => {
-  const mouth = useMemo(() => segments.flatMap((s) => s.mouth), []);
   return (
     <AbsoluteFill>
       <Background />
@@ -46,11 +65,8 @@ export const BasketFacts = () => {
         ))}
       </Series>
       <Progress />
-      <div style={{ position: "absolute", right: 120, bottom: 40 }}>
-        <AvatarEntrance>
-          <Avatar mouth={mouth} size={560} />
-        </AvatarEntrance>
-      </div>
+      <BouncingBall />
+      <Audio name="Música" src={staticFile("music/hoops-beat.wav")} loop volume={musicVolume} />
     </AbsoluteFill>
   );
 };

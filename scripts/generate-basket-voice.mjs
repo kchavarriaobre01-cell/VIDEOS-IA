@@ -8,6 +8,8 @@ import { KokoroTTS } from "kokoro-js";
 
 const VOICE = process.env.KOKORO_VOICE || "am_puck";
 const SPEED = Number(process.env.KOKORO_SPEED || 1.12);
+// Tono: 1 = normal, 1.19 = caricatura suave, 1.33 = caricatura, 1.5 = ardilla. No cambia la duración.
+const PITCH = Number(process.env.VOICE_PITCH || 1);
 const FPS = 30;
 const LEAD = 12; // frames de silencio al inicio de cada escena
 const GAP = 6; // frames extra entre frases
@@ -40,7 +42,7 @@ const writeWav = (path, samples, sr) => {
 console.log(`Cargando voz ${VOICE}...`);
 const tts = await KokoroTTS.from_pretrained("onnx-community/Kokoro-82M-v1.0-ONNX", { dtype: "q8", device: "cpu" });
 
-const manifest = { fps: FPS, voice: VOICE, segments: [] };
+const manifest = { fps: FPS, voice: VOICE, speed: SPEED, pitch: PITCH, segments: [] };
 for (const seg of segments) {
   const parts = [];
   for (const text of splitSentences(seg.text)) {
@@ -73,7 +75,8 @@ for (const seg of segments) {
 
   const wav = `${outDir}/${seg.id}.wav`;
   writeWav(wav, mix, sr);
-  execFileSync("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-b:a", "96k", `${outDir}/${seg.id}.mp3`]);
+  const pitch = PITCH === 1 ? [] : ["-af", `asetrate=${sr}*${PITCH},aresample=${sr},atempo=${1 / PITCH}`];
+  execFileSync("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", wav, ...pitch, "-b:a", "96k", `${outDir}/${seg.id}.mp3`]);
   unlinkSync(wav);
 
   manifest.segments.push({ id: seg.id, frames: totalFrames, audio: `voiceover/basket/${seg.id}.mp3`, sentences, mouth });
