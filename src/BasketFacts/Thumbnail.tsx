@@ -1,6 +1,6 @@
 import { AbsoluteFill } from "remotion";
-import { colors, displayFont, monoFont } from "../Intro/theme";
-import { BallSvg } from "./Ball";
+import { colors, displayFont } from "../Intro/theme";
+import { Squirrel } from "./Squirrel";
 
 // Miniatura de YouTube (1280x720).
 export const Thumbnail = () => (
@@ -20,8 +20,8 @@ export const Thumbnail = () => (
         <path d="M630 510 L725 480" />
       </g>
     </svg>
-    <div style={{ position: "absolute", right: -40, top: 90, rotate: "-12deg" }}>
-      <BallSvg size={560} rotate={18} />
+    <div style={{ position: "absolute", right: -10, top: 40, rotate: "4deg" }}>
+      <Squirrel mouth={[90]} size={520} />
     </div>
     <div style={{ position: "absolute", left: 64, top: 70, display: "flex", flexDirection: "column" }}>
       <div
@@ -69,9 +69,6 @@ export const Thumbnail = () => (
       >
         you never knew!
       </div>
-    </div>
-    <div style={{ position: "absolute", right: 48, bottom: 36, fontFamily: monoFont, fontSize: 28, color: colors.paper, opacity: 0.7, letterSpacing: "0.12em" }}>
-      #14 IS INSANE
     </div>
   </AbsoluteFill>
 );

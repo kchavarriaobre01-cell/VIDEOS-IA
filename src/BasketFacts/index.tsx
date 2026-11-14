@@ -1,6 +1,6 @@
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, Series, staticFile, useCurrentFrame } from "remotion";
-import { BouncingBall } from "./Ball";
+import { Squirrel } from "./Squirrel";
 import { Background } from "./Background";
 import { FactScene } from "./FactScene";
 import { ProgressBar } from "./ProgressBar";
@@ -46,6 +46,8 @@ const musicVolume = (f: number) => {
   return (MUSIC_PAUSE - (MUSIC_PAUSE - MUSIC_TALKING) * talk) * fadeOut;
 };
 
+const mouth = segments.flatMap((s) => s.mouth);
+
 export const BasketFacts = () => {
   return (
     <AbsoluteFill>
@@ -65,7 +67,9 @@ export const BasketFacts = () => {
         ))}
       </Series>
       <Progress />
-      <BouncingBall />
+      <div style={{ position: "absolute", right: 90, bottom: 30 }}>
+        <Squirrel mouth={mouth} size={600} />
+      </div>
       <Audio name="Música" src={staticFile("music/hoops-beat.wav")} loop volume={musicVolume} />
     </AbsoluteFill>
   );

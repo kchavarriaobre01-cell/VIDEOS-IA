@@ -7,9 +7,9 @@ import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 
 import { KokoroTTS } from "kokoro-js";
 
 const VOICE = process.env.KOKORO_VOICE || "am_puck";
-const SPEED = Number(process.env.KOKORO_SPEED || 1.12);
+const SPEED = Number(process.env.KOKORO_SPEED || 1.2);
 // Tono: 1 = normal, 1.19 = caricatura suave, 1.33 = caricatura, 1.5 = ardilla. No cambia la duración.
-const PITCH = Number(process.env.VOICE_PITCH || 1);
+const PITCH = Number(process.env.VOICE_PITCH || 1.5);
 const FPS = 30;
 const LEAD = 12; // frames de silencio al inicio de cada escena
 const GAP = 6; // frames extra entre frases
