@@ -2,6 +2,17 @@ import { Easing, Img, interpolate, staticFile, useCurrentFrame } from "remotion"
 import { Background } from "./Background";
 import type { Photo, Sentence } from "./types";
 
+// Tamaño exacto para que el marco blanco abrace la foto.
+const fit = (w: number, h: number) => {
+  let height = 960;
+  let width = (height * w) / h;
+  if (width > 1500) {
+    width = 1500;
+    height = (width * h) / w;
+  }
+  return { width, height };
+};
+
 const origins = ["30% 40%", "70% 45%", "50% 30%", "40% 60%", "60% 50%"];
 
 // Fotos a pantalla completa. Cambia de foto (o de encuadre) en cada frase, con zoom lento.
@@ -49,6 +60,29 @@ export const PhotoLayer = ({
     );
   }
   const p = photoAt(idx);
+  // Fotos verticales o pequeñas: se muestran enteras sobre una copia desenfocada.
+  const framed = !!p.w && !!p.h && (p.h > p.w * 0.8 || p.w < 900);
+  if (framed) {
+    return (
+      <div style={{ position: "absolute", inset: 0, overflow: "hidden", backgroundColor: "#000" }}>
+        <Img
+          src={staticFile(p.src)}
+          style={{ ...imgStyle("50% 50%"), filter: "blur(40px) brightness(0.45)", scale: "1.25" }}
+        />
+        <div style={{ position: "absolute", inset: 0, display: "flex", justifyContent: "center", alignItems: "center" }}>
+          <Img
+            src={staticFile(p.src)}
+            style={{
+              ...fit(p.w ?? 1, p.h ?? 1),
+              scale: `${(zoom - 0.06) * punch}`,
+              boxShadow: "0 20px 60px rgba(0,0,0,0.7)",
+              border: "6px solid #fff",
+            }}
+          />
+        </div>
+      </div>
+    );
+  }
   return (
     <div style={{ position: "absolute", inset: 0, overflow: "hidden", backgroundColor: "#000" }}>
       <Img src={staticFile(p.src)} style={imgStyle(p.focus ?? origins[idx % origins.length])} />

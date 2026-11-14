@@ -1,1 +1,596 @@
-{}
+{
+ "intro": [
+  {
+   "src": "images/basket/tech-cavaliers-women-s-basketball-game-2024-03-03-jpg.jpg",
+   "credit": "Sean Dudley",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Tech-Cavaliers_Women%27s_Basketball_game_(2024-03-03).jpg",
+   "title": "File:Tech-Cavaliers Women's Basketball game (2024-03-03).jpg",
+   "w": 1280,
+   "h": 849
+  },
+  {
+   "src": "images/basket/basketball-game-in-jerusalem-israel-s-new-pais-arena-jpg.jpg",
+   "credit": "Orenrosenfeld",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Basketball_game_in_Jerusalem_Israel%60s_new_Pais_Arena.jpg",
+   "title": "File:Basketball game in Jerusalem Israel`s new Pais Arena.jpg",
+   "w": 1280,
+   "h": 959
+  },
+  {
+   "src": "images/basket/open-net-7190004572-jpg.jpg",
+   "credit": "Håkan Dahlström from Malmö, Sweden",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Open_net_(7190004572).jpg",
+   "title": "File:Open net (7190004572).jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f01": [
+  {
+   "src": "images/basket/james-naismith-at-springfield-college-circa-1920-jpg.jpg",
+   "credit": "Springfield College Archives",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:James_Naismith_at_Springfield_College_circa_1920.jpg",
+   "title": "File:James Naismith at Springfield College circa 1920.jpg",
+   "w": 1080,
+   "h": 1334
+  },
+  {
+   "src": "images/basket/springfield-college-gymnasium-c-1887-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Springfield_college_gymnasium_c_1887.jpg",
+   "title": "File:Springfield college gymnasium c 1887.jpg",
+   "w": 500,
+   "h": 410
+  }
+ ],
+ "f02": [
+  {
+   "src": "images/basket/dr-james-naismith-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Dr._James_Naismith.jpg",
+   "title": "File:Dr. James Naismith.jpg",
+   "w": 1280,
+   "h": 1684
+  },
+  {
+   "src": "images/basket/underneath-basketball-hoop-jpg.jpg",
+   "credit": "Owen Yin",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Underneath_Basketball_Hoop.JPG",
+   "title": "File:Underneath Basketball Hoop.JPG",
+   "w": 1280,
+   "h": 921
+  }
+ ],
+ "f03": [
+  {
+   "src": "images/basket/springfield-college-gymnasium-c-1887-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Springfield_college_gymnasium_c_1887.jpg",
+   "title": "File:Springfield college gymnasium c 1887.jpg",
+   "w": 500,
+   "h": 410
+  },
+  {
+   "src": "images/basket/basketball-hoop-birkenshaw-bottoms-geograph-org-uk-5114502-j.jpg",
+   "credit": "Mark Anderson",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Basketball_Hoop,_Birkenshaw_Bottoms_-_geograph.org.uk_-_5114502.jpg",
+   "title": "File:Basketball Hoop, Birkenshaw Bottoms - geograph.org.uk - 5114502.jpg",
+   "w": 960,
+   "h": 639
+  },
+  {
+   "src": "images/basket/jacob-riis-park-td-2019-06-04-031-basketball-courts-jpg.jpg",
+   "credit": "Tdorante10",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Jacob_Riis_Park_td_(2019-06-04)_031_-_Basketball_Courts.jpg",
+   "title": "File:Jacob Riis Park td (2019-06-04) 031 - Basketball Courts.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f04": [
+  {
+   "src": "images/basket/dr-james-naismith-s-original-13-rules-of-basket-ball-pg-1-jp.jpg",
+   "credit": "James Naismith",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Dr._James_Naismith%27s_Original_13_Rules_of_Basket_Ball_pg_1.jpg",
+   "title": "File:Dr. James Naismith's Original 13 Rules of Basket Ball pg 1.jpg",
+   "w": 500,
+   "h": 326
+  },
+  {
+   "src": "images/basket/naismith-rules-of-basketball-1892-first-draft-jpg.jpg",
+   "credit": "James Naismith",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Naismith_Rules_of_Basketball_1892_first_draft.jpg",
+   "title": "File:Naismith Rules of Basketball 1892 first draft.jpg",
+   "w": 1280,
+   "h": 780
+  },
+  {
+   "src": "images/basket/jnaismith-jpg.jpg",
+   "credit": "Harry A. Fisher",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:JNAISMITH.jpg",
+   "title": "File:JNAISMITH.jpg",
+   "w": 500,
+   "h": 684
+  }
+ ],
+ "f05": [
+  {
+   "src": "images/basket/jnaismith-jpg.jpg",
+   "credit": "Harry A. Fisher",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:JNAISMITH.jpg",
+   "title": "File:JNAISMITH.jpg",
+   "w": 500,
+   "h": 684
+  },
+  {
+   "src": "images/basket/springfield-college-gymnasium-c-1887-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Springfield_college_gymnasium_c_1887.jpg",
+   "title": "File:Springfield college gymnasium c 1887.jpg",
+   "w": 500,
+   "h": 410
+  }
+ ],
+ "f06": [
+  {
+   "src": "images/basket/basketball-players-dribbling-in-formation-dpla-de0ce43ab3f65.jpg",
+   "credit": "U.S. War Department (via DPLA)",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Basketball_Players_Dribbling_in_Formation_-_DPLA_-_de0ce43ab3f651af70678f25378a23ed.jpg",
+   "title": "File:Basketball Players Dribbling in Formation - DPLA - de0ce43ab3f651af70678f25378a23ed.jpg",
+   "w": 1280,
+   "h": 1033
+  },
+  {
+   "src": "images/basket/boy-dribbling-a-basketball-at-a-sidewalk-in-downtown-taichun.jpg",
+   "credit": "Tbatb",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Boy_dribbling_a_Basketball_at_a_Sidewalk_in_downtown_Taichung.jpg",
+   "title": "File:Boy dribbling a Basketball at a Sidewalk in downtown Taichung.jpg",
+   "w": 1280,
+   "h": 852
+  }
+ ],
+ "f07": [
+  {
+   "src": "images/basket/kellogg-s-shredded-krumbles-1920-jpg.jpg",
+   "credit": "McClelland Barclay",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kellogg%27s_Shredded_Krumbles,_1920.jpg",
+   "title": "File:Kellogg's Shredded Krumbles, 1920.jpg",
+   "w": 500,
+   "h": 814
+  },
+  {
+   "src": "images/basket/a-basketball-player-27375043834-jpg.jpg",
+   "credit": "The Vintage Traveler",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:A_Basketball_Player_(27375043834).jpg",
+   "title": "File:A Basketball Player (27375043834).jpg",
+   "w": 500,
+   "h": 854
+  }
+ ],
+ "f08": [
+  {
+   "src": "images/basket/smith-college-class-1902-basketball-team-jpg.jpg",
+   "credit": "Unknown ca. 1902 photographer",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Smith-College-Class-1902-basketball-team.jpg",
+   "title": "File:Smith-College-Class-1902-basketball-team.jpg",
+   "w": 960,
+   "h": 550
+  },
+  {
+   "src": "images/basket/alumnae-gymnasium-smith-college-jpg.jpg",
+   "credit": "Sphilbrick",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Alumnae_Gymnasium_(Smith_College).jpg",
+   "title": "File:Alumnae Gymnasium (Smith College).jpg",
+   "w": 1280,
+   "h": 888
+  },
+  {
+   "src": "images/basket/1899-oregon-agricultural-college-women-s-basketball-team-tif.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:1899_Oregon_Agricultural_College_women%27s_basketball_team.tif",
+   "title": "File:1899 Oregon Agricultural College women's basketball team.tif",
+   "w": 330,
+   "h": 269
+  }
+ ],
+ "f09": [
+  {
+   "src": "images/basket/kansas-u-team-1899-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kansas_U_team_1899.jpg",
+   "title": "File:Kansas U team 1899.jpg",
+   "w": 500,
+   "h": 396
+  },
+  {
+   "src": "images/basket/jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E5%A5%88%E5%8F%B2%E5%AF%86%E6%96%AF.jpg",
+   "title": "File:詹姆斯·奈史密斯.jpg",
+   "w": 1280,
+   "h": 1707
+  }
+ ],
+ "f10": [
+  {
+   "src": "images/basket/basketball-olympiade-1936-berlin-stadion-arena-jpg.jpg",
+   "credit": "Nadeldose",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Basketball_Olympiade_1936_Berlin_Stadion_Arena.jpg",
+   "title": "File:Basketball Olympiade 1936 Berlin Stadion Arena.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/basket/olympic-gold-medal-1936-png.jpg",
+   "credit": "Grant Zahajko Auctions",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Olympic_Gold_Medal_1936.png",
+   "title": "File:Olympic Gold Medal 1936.png",
+   "w": 1280,
+   "h": 1251
+  }
+ ],
+ "f11": [
+  {
+   "src": "images/basket/1950-minneapolis-lakers-jpeg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:1950_Minneapolis_Lakers.jpeg",
+   "title": "File:1950 Minneapolis Lakers.jpeg",
+   "w": 960,
+   "h": 670
+  },
+  {
+   "src": "images/basket/bucks-nuggets-ball-arena-2025-jpg.jpg",
+   "credit": "MhcL947",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bucks_@_Nuggets,_Ball_Arena,_2025.jpg",
+   "title": "File:Bucks @ Nuggets, Ball Arena, 2025.jpg",
+   "w": 1280,
+   "h": 1707
+  }
+ ],
+ "f12": [
+  {
+   "src": "images/basket/george-mikan-1945-jpeg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:George_Mikan_1945.jpeg",
+   "title": "File:George Mikan 1945.jpeg",
+   "w": 1280,
+   "h": 1988
+  },
+  {
+   "src": "images/basket/1950-minneapolis-lakers-jpeg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:1950_Minneapolis_Lakers.jpeg",
+   "title": "File:1950 Minneapolis Lakers.jpeg",
+   "w": 960,
+   "h": 670
+  }
+ ],
+ "f13": [
+  {
+   "src": "images/basket/shot-clock-red-and-game-clock-white-in-a-basketball-game-jpg.jpg",
+   "credit": "TonyTheTiger",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Shot_clock_(red)_and_game_clock_(white)_in_a_basketball_game.JPG",
+   "title": "File:Shot clock (red) and game clock (white) in a basketball game.JPG",
+   "w": 1280,
+   "h": 1596
+  },
+  {
+   "src": "images/basket/syracuse-shot-clock-monument-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Syracuse_Shot_Clock_Monument.jpg",
+   "title": "File:Syracuse Shot Clock Monument.jpg",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "src": "images/basket/nba-shot-clock-jpg.jpg",
+   "credit": "Original uploader was Gavindow at en.wikipedia",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:NBA_shot_clock.jpg",
+   "title": "File:NBA shot clock.jpg",
+   "w": 1280,
+   "h": 1084
+  }
+ ],
+ "f14": [
+  {
+   "src": "images/basket/wilt-chamberlain-100-point-game-1962-jpg.jpg",
+   "credit": "Paul Vathis",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_100_Point_Game_1962.jpg",
+   "title": "File:Wilt Chamberlain 100 Point Game 1962.jpg",
+   "w": 1280,
+   "h": 1529
+  },
+  {
+   "src": "images/basket/wilt-chamberlain3-jpg.jpg",
+   "credit": "Fred Palumbo, World Telegram staff photographer",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain3.jpg",
+   "title": "File:Wilt Chamberlain3.jpg",
+   "w": 1280,
+   "h": 1619
+  }
+ ],
+ "f15": [
+  {
+   "src": "images/basket/wilt-chamberlain-1960-jpg.jpg",
+   "credit": "Bill Allen",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_1960.jpg",
+   "title": "File:Wilt Chamberlain 1960.jpg",
+   "w": 1280,
+   "h": 1298
+  },
+  {
+   "src": "images/basket/wilt-chamberlain-dunk-1963-jpg.jpg",
+   "credit": "Unknown",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_dunk_1963.jpg",
+   "title": "File:Wilt Chamberlain dunk 1963.jpg",
+   "w": 1280,
+   "h": 1749
+  }
+ ],
+ "f16": [
+  {
+   "src": "images/basket/bill-russell-dribbling-boston-celtics-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Bill_Russell_dribbling_Boston_Celtics.jpg",
+   "title": "File:Bill Russell dribbling Boston Celtics.jpg",
+   "w": 1280,
+   "h": 1563
+  },
+  {
+   "src": "images/basket/bill-russell-1962-jpg.jpg",
+   "credit": "Unknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Bill_Russell_1962.jpg",
+   "title": "File:Bill Russell 1962.jpg",
+   "w": 960,
+   "h": 2119
+  },
+  {
+   "src": "images/basket/banners-at-the-garden-jpg.jpg",
+   "credit": "redsox20041027",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Banners_at_the_Garden.jpg",
+   "title": "File:Banners at the Garden.jpg",
+   "w": 1280,
+   "h": 960
+  }
+ ],
+ "f17": [
+  {
+   "src": "images/basket/lew-alcindor-kareem-abdul-jabbar-ucla-jpg.jpg",
+   "credit": "New York World-Telegram and the Sun staff photographer",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Lew_Alcindor_Kareem_Abdul-Jabbar_UCLA.jpg",
+   "title": "File:Lew Alcindor Kareem Abdul-Jabbar UCLA.jpg",
+   "w": 1280,
+   "h": 1545
+  },
+  {
+   "src": "images/basket/kareem-abdul-jabbar-ncaa-championship-jpeg.jpg",
+   "credit": "Malcolm W. Emmons",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kareem_Abdul-Jabbar_NCAA_Championship.jpeg",
+   "title": "File:Kareem Abdul-Jabbar NCAA Championship.jpeg",
+   "w": 1280,
+   "h": 1646
+  }
+ ],
+ "f18": [
+  {
+   "src": "images/basket/nate-bowie-shootin-from-three-point-range-png.jpg",
+   "credit": "Osirism60",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Nate_bowie_shootin_from_three-point_range..png",
+   "title": "File:Nate bowie shootin from three-point range..png",
+   "w": 1280,
+   "h": 651
+  },
+  {
+   "src": "images/basket/hunter-s-pt-community-pk-td-2025-08-23-02-5th-street-lofts-j.jpg",
+   "credit": "Tdorante10",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hunter%27s_Pt_Community_Pk_td_(2025-08-23)_02_-_5th_Street_Lofts.jpg",
+   "title": "File:Hunter's Pt Community Pk td (2025-08-23) 02 - 5th Street Lofts.jpg",
+   "w": 1280,
+   "h": 720
+  }
+ ],
+ "f19": [
+  {
+   "src": "images/basket/bucks-nuggets-ball-arena-2025-jpg.jpg",
+   "credit": "MhcL947",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bucks_@_Nuggets,_Ball_Arena,_2025.jpg",
+   "title": "File:Bucks @ Nuggets, Ball Arena, 2025.jpg",
+   "w": 1280,
+   "h": 1707
+  },
+  {
+   "src": "images/basket/hooper-the-official-mascot-of-the-detroit-pistons-jpg.jpg",
+   "credit": "Pafisher188",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hooper,_the_official_mascot_of_the_Detroit_Pistons.jpg",
+   "title": "File:Hooper, the official mascot of the Detroit Pistons.jpg",
+   "w": 1280,
+   "h": 975
+  }
+ ],
+ "f20": [
+  {
+   "src": "images/basket/abdul-jabbar-v-larry-bird-1987-jpg.jpg",
+   "credit": "Douglas C. Pizac",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Abdul_jabbar_v_larry_bird_1987.jpg",
+   "title": "File:Abdul jabbar v larry bird 1987.jpg",
+   "w": 960,
+   "h": 1344
+  },
+  {
+   "src": "images/basket/kareem-abdul-jabbar-lipofsky-hq-cropped-jpg.jpg",
+   "credit": "copyright Steve lipofsky www.Basketballphoto.com",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kareem-Abdul-Jabbar_Lipofsky_(HQ)_(cropped).jpg",
+   "title": "File:Kareem-Abdul-Jabbar Lipofsky (HQ) (cropped).jpg",
+   "w": 960,
+   "h": 1783
+  }
+ ],
+ "f21": [
+  {
+   "src": "images/basket/lebron-james-carmelo-anthony-la-lakers-jpg.jpg",
+   "credit": "Erik Drost",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:LeBron_James_Carmelo_Anthony_(LA_Lakers).jpg",
+   "title": "File:LeBron James Carmelo Anthony (LA Lakers).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/basket/lebron-james-51959723161-cropped-jpg.jpg",
+   "credit": "Erik Drost",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:LeBron_James_-_51959723161_(cropped).jpg",
+   "title": "File:LeBron James - 51959723161 (cropped).jpg",
+   "w": 1280,
+   "h": 1789
+  }
+ ],
+ "f22": [
+  {
+   "src": "images/basket/kobe-bryant-7144-adjusted-jpg.jpg",
+   "credit": "Sgt. Joseph A. Lee",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_7144_adjusted.jpg",
+   "title": "File:Kobe Bryant 7144 adjusted.jpg",
+   "w": 1280,
+   "h": 1920
+  },
+  {
+   "src": "images/basket/kobe-bryant-11019129004-jpg.jpg",
+   "credit": "Neon Tommy",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_-_11019129004.jpg",
+   "title": "File:Kobe Bryant - 11019129004.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f23": [
+  {
+   "src": "images/basket/michael-jordan-holds-up-his-chicago-bulls-jersey-on-septembe.jpg",
+   "credit": "United Press International",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Michael_Jordan_holds_up_his_Chicago_Bulls_jersey_on_September_12,_1984.jpg",
+   "title": "File:Michael Jordan holds up his Chicago Bulls jersey on September 12, 1984.jpg",
+   "w": 1280,
+   "h": 1745
+  },
+  {
+   "src": "images/basket/steve-lipfosky-michael-jordan-1997-jpg.jpg",
+   "credit": "Steve Lipofsky",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Steve_Lipfosky_--_Michael_Jordan_(1997).jpg",
+   "title": "File:Steve Lipfosky -- Michael Jordan (1997).jpg",
+   "w": 960,
+   "h": 1410
+  }
+ ],
+ "f24": [
+  {
+   "src": "images/basket/shaquille-o-neal-1998-jpg.jpg",
+   "credit": "John Mathew Smith & celebrity-photos.com",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Shaquille_O%27Neal_1998.jpg",
+   "title": "File:Shaquille O'Neal 1998.jpg",
+   "w": 960,
+   "h": 1146
+  },
+  {
+   "src": "images/basket/shaquille-o-neal-ramstein-air-base-2001-df-sd-02-08884-jpg.jpg",
+   "credit": "SSGT Jocelyn M. Broussard, USAF",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Shaquille_O%27Neal_Ramstein_Air_Base_2001_DF-SD-02-08884.jpg",
+   "title": "File:Shaquille O'Neal Ramstein Air Base 2001 DF-SD-02-08884.jpg",
+   "w": 1280,
+   "h": 1951
+  }
+ ],
+ "f25": [
+  {
+   "src": "images/basket/manute-bol-at-bridgeport-knights-1984-jpg.jpg",
+   "credit": "University of Bridgeport - Uncredited photographer",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Manute_Bol_at_Bridgeport_Knights_1984.jpg",
+   "title": "File:Manute Bol at Bridgeport Knights 1984.jpg",
+   "w": 1280,
+   "h": 838
+  },
+  {
+   "src": "images/basket/muggsy-bogues-unexpected-visit-from-nba-legends-2-cropped-jp.jpg",
+   "credit": "Capt. Katherine Alegado",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Muggsy_Bogues_Unexpected_visit_from_NBA_legends_(2)_(cropped).jpg",
+   "title": "File:Muggsy Bogues Unexpected visit from NBA legends (2) (cropped).jpg",
+   "w": 1280,
+   "h": 1708
+  }
+ ],
+ "outro": [
+  {
+   "src": "images/basket/outdoor-basketball-court-hurst-park-molesey-surrey-01-jpg.jpg",
+   "credit": "Mertbiol",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Outdoor_basketball_court,_Hurst_Park,_Molesey,_Surrey_01.jpg",
+   "title": "File:Outdoor basketball court, Hurst Park, Molesey, Surrey 01.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/basket/ryther-covered-outdoor-basketball-court-02-jpg.jpg",
+   "credit": "Joe Mabel",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ryther_-_covered_outdoor_basketball_court_02.jpg",
+   "title": "File:Ryther - covered outdoor basketball court 02.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ]
+}

@@ -18,4 +18,6 @@ export type Photo = {
   readonly license: string;
   readonly page: string;
   readonly focus?: string;
+  readonly w?: number;
+  readonly h?: number;
 };

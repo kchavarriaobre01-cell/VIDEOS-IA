@@ -84,7 +84,7 @@ export const NameTag = ({ sentences, names }: { readonly sentences: readonly Sen
   if (!name) return null;
   const local = frame - (sentences[idx].from - 2);
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 250, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 300, display: "flex", justifyContent: "center" }}>
       <div
         style={{
           fontFamily: displayFont,
