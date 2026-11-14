@@ -5,6 +5,9 @@ import { Title } from "./HelloWorld/Title";
 import { BasketFacts, basketTotalFrames } from "./BasketFacts";
 import { BasketShort, calculateShortMetadata, shortSchema } from "./BasketFacts/Short";
 import { Thumbnail } from "./BasketFacts/Thumbnail";
+import { Animals, animalsTotalFrames } from "./Animals";
+import { AnimalShort, animalShortSchema, calculateAnimalShortMetadata } from "./Animals/Short";
+import { AnimalsThumbnail } from "./Animals/Thumbnail";
 import { Intro } from "./Intro";
 import { IntroVoz } from "./IntroVoz";
 import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
@@ -14,6 +17,19 @@ import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="Animals" component={Animals} durationInFrames={animalsTotalFrames} fps={30} width={1920} height={1080} />
+      <Composition
+        id="AnimalShort"
+        component={AnimalShort}
+        schema={animalShortSchema}
+        calculateMetadata={calculateAnimalShortMetadata}
+        defaultProps={{ animal: 1 }}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Still id="AnimalsThumbnail" component={AnimalsThumbnail} width={1280} height={720} />
       <Composition
         id="BasketFacts"
         component={BasketFacts}
