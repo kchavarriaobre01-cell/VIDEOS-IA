@@ -77,14 +77,22 @@ export const CenterCaption = ({ sentences }: { readonly sentences: readonly Sent
 };
 
 // Etiqueta con el nombre de la persona mencionada en la frase actual.
-export const NameTag = ({ sentences, names }: { readonly sentences: readonly Sentence[]; readonly names: readonly (string | null)[] }) => {
+export const NameTag = ({
+  sentences,
+  names,
+  bottom = 170,
+}: {
+  readonly sentences: readonly Sentence[];
+  readonly names: readonly (string | null)[];
+  readonly bottom?: number;
+}) => {
   const frame = useCurrentFrame();
   const idx = currentSentence(sentences, frame);
   const name = idx >= 0 ? names[idx] : null;
   if (!name) return null;
   const local = frame - (sentences[idx].from - 2);
   return (
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 300, display: "flex", justifyContent: "center" }}>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom, display: "flex", justifyContent: "center" }}>
       <div
         style={{
           fontFamily: displayFont,
@@ -111,7 +119,17 @@ export const NameTag = ({ sentences, names }: { readonly sentences: readonly Sen
 };
 
 // Cabecera: número del dato + título + cifra clave.
-export const FactHeader = ({ index, title, stat }: { readonly index: number; readonly title: string; readonly stat: string }) => {
+export const FactHeader = ({
+  index,
+  title,
+  stat,
+  vertical = false,
+}: {
+  readonly index: number;
+  readonly title: string;
+  readonly stat: string;
+  readonly vertical?: boolean;
+}) => {
   const frame = useCurrentFrame();
   const pop = (d: number) =>
     interpolate(frame, [d, d + 12], [0, 1], {
@@ -121,7 +139,7 @@ export const FactHeader = ({ index, title, stat }: { readonly index: number; rea
       output: "perceptual-scale",
     });
   return (
-    <div style={{ position: "absolute", top: 36, left: 40, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 12 }}>
+    <div style={{ position: "absolute", top: vertical ? 170 : 36, left: 40, display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 12 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 14, scale: pop(0), transformOrigin: "left center" }}>
         <div
           style={{
@@ -147,7 +165,7 @@ export const FactHeader = ({ index, title, stat }: { readonly index: number; rea
             backgroundColor: "rgba(0,0,0,0.72)",
             padding: "6px 20px 10px",
             borderRadius: 12,
-            maxWidth: 1150,
+            maxWidth: vertical ? 760 : 1150,
           }}
         >
           {title}

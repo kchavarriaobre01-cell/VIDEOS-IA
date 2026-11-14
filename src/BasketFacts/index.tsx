@@ -1,7 +1,7 @@
 import { Audio } from "@remotion/media";
 import { AbsoluteFill, Easing, interpolate, Series, staticFile, useCurrentFrame } from "remotion";
 import { colors, displayFont } from "../Intro/theme";
-import { CenterCaption, Countdown, FactHeader, NameTag, Vignette } from "./Overlays";
+import { Countdown, FactHeader, NameTag, Vignette } from "./Overlays";
 import { PhotoCredit, PhotoLayer } from "./PhotoLayer";
 import { Squirrel } from "./Squirrel";
 import type { Fact, Photo, Segment } from "./types";
@@ -17,7 +17,7 @@ export const basketTotalFrames = segments.reduce((s, x) => s + x.frames, 0);
 const starts = segments.reduce<number[]>((acc, _s, i) => [...acc, i === 0 ? 0 : acc[i - 1] + segments[i - 1].frames], []);
 
 // Nombres que aparecen en etiqueta cuando la voz los menciona.
-const NAMES: [RegExp, string][] = [
+export const NAMES: [RegExp, string][] = [
   [/Naismith/, "James Naismith"],
   [/William Chase/, "William Chase"],
   [/Senda Berenson/, "Senda Berenson"],
@@ -34,7 +34,7 @@ const NAMES: [RegExp, string][] = [
   [/Manute Bol/, "Manute Bol"],
   [/Muggsy/, "Muggsy Bogues"],
 ];
-const namesFor = (seg: Segment) => {
+export const namesFor = (seg: Segment) => {
   const shown = new Set<string>();
   return seg.sentences.map((s) => {
     const hit = NAMES.find(([re, name]) => re.test(s.text) && !shown.has(name));
@@ -52,8 +52,8 @@ const speaking = (() => {
   });
   return arr;
 })();
-const MUSIC_TALKING = 0.07;
-const MUSIC_PAUSE = 0.2;
+const MUSIC_TALKING = 0.15;
+const MUSIC_PAUSE = 0.35;
 const musicVolume = (frame: number) => {
   const f = Number.isFinite(frame) ? Math.round(frame) : 0;
   let sum = 0;
@@ -137,7 +137,6 @@ export const BasketFacts = () => {
                 <FactHeader index={i} title={fact.title} stat={fact.stat} />
               )}
               <NameTag sentences={seg.sentences} names={namesFor(seg)} />
-              <CenterCaption sentences={seg.sentences} />
               <PhotoCredit photos={photos} sentences={seg.sentences} />
             </Series.Sequence>
           );

@@ -7,8 +7,17 @@ import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 
 import { KokoroTTS } from "kokoro-js";
 
 const VOICE = process.env.KOKORO_VOICE || "am_puck";
-const SPEED = Number(process.env.KOKORO_SPEED || 1.2);
+const SPEED = Number(process.env.KOKORO_SPEED || 1.3);
 // Tono: 1 = normal, 1.19 = caricatura suave, 1.33 = caricatura, 1.5 = ardilla. No cambia la duración.
+const HAS_FFMPEG = (() => {
+  try {
+    execFileSync("ffmpeg", ["-hide_banner", "-h", "filter=acompressor"], { stdio: "ignore" });
+    return true;
+  } catch {
+    return false;
+  }
+})();
+const PUNCH = "equalizer=f=3500:t=q:w=1:g=4,acompressor=threshold=-18dB:ratio=3:makeup=2";
 const PITCH = Number(process.env.VOICE_PITCH || 1.5);
 const FPS = 30;
 const LEAD = 12; // frames de silencio al inicio de cada escena
@@ -75,8 +84,12 @@ for (const seg of segments) {
 
   const wav = `${outDir}/${seg.id}.wav`;
   writeWav(wav, mix, sr);
-  const pitch = PITCH === 1 ? [] : ["-af", `asetrate=${sr}*${PITCH},aresample=${sr},atempo=${1 / PITCH}`];
-  execFileSync("npx", ["remotion", "ffmpeg", "-y", "-loglevel", "error", "-i", wav, ...pitch, "-b:a", "96k", `${outDir}/${seg.id}.mp3`]);
+  // Con ffmpeg del sistema: brillo + compresión para una voz más enérgica.
+  const filters = [PITCH === 1 ? null : `asetrate=${sr}*${PITCH},aresample=${sr},atempo=${1 / PITCH}`, HAS_FFMPEG ? PUNCH : null].filter(Boolean);
+  const af = filters.length ? ["-af", filters.join(",")] : [];
+  const args = ["-y", "-loglevel", "error", "-i", wav, ...af, "-b:a", "96k", `${outDir}/${seg.id}.mp3`];
+  if (HAS_FFMPEG) execFileSync("ffmpeg", args);
+  else execFileSync("npx", ["remotion", "ffmpeg", ...args]);
   unlinkSync(wav);
 
   manifest.segments.push({ id: seg.id, frames: totalFrames, audio: `voiceover/basket/${seg.id}.mp3`, sentences, mouth });

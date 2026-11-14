@@ -3,6 +3,7 @@ import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
 import { BasketFacts, basketTotalFrames } from "./BasketFacts";
+import { BasketShort, calculateShortMetadata, shortSchema } from "./BasketFacts/Short";
 import { Thumbnail } from "./BasketFacts/Thumbnail";
 import { Intro } from "./Intro";
 import { IntroVoz } from "./IntroVoz";
@@ -20,6 +21,17 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+      <Composition
+        id="BasketShort"
+        component={BasketShort}
+        schema={shortSchema}
+        calculateMetadata={calculateShortMetadata}
+        defaultProps={{ fact: 1 }}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
       />
       <Still id="BasketThumbnail" component={Thumbnail} width={1280} height={720} />
       <Composition

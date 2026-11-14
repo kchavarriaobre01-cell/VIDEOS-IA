@@ -3,11 +3,12 @@ import { Background } from "./Background";
 import type { Photo, Sentence } from "./types";
 
 // Tamaño exacto para que el marco blanco abrace la foto.
-const fit = (w: number, h: number) => {
-  let height = 960;
+const fit = (w: number, h: number, vertical: boolean) => {
+  let height = vertical ? 1080 : 960;
   let width = (height * w) / h;
-  if (width > 1500) {
-    width = 1500;
+  const maxW = vertical ? 1000 : 1500;
+  if (width > maxW) {
+    width = maxW;
     height = (width * h) / w;
   }
   return { width, height };
@@ -20,10 +21,12 @@ export const PhotoLayer = ({
   photos,
   sentences,
   split,
+  vertical = false,
 }: {
   readonly photos: readonly Photo[];
   readonly sentences: readonly Sentence[];
   readonly split?: boolean;
+  readonly vertical?: boolean;
 }) => {
   const frame = useCurrentFrame();
   if (photos.length === 0) return <Background />;
@@ -50,7 +53,7 @@ export const PhotoLayer = ({
     const a = photoAt(idx * 2);
     const b = photoAt(idx * 2 + 1);
     return (
-      <div style={{ position: "absolute", inset: 0, display: "flex", gap: 12, backgroundColor: "#000" }}>
+      <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: vertical ? "column" : "row", gap: 12, backgroundColor: "#000" }}>
         {[a, b].map((p, k) => (
           <div key={k} style={{ flex: 1, overflow: "hidden" }}>
             <Img src={staticFile(p.src)} style={imgStyle(p.focus ?? "50% 40%")} />
@@ -61,7 +64,7 @@ export const PhotoLayer = ({
   }
   const p = photoAt(idx);
   // Fotos verticales o pequeñas: se muestran enteras sobre una copia desenfocada.
-  const framed = !!p.w && !!p.h && (p.h > p.w * 0.8 || p.w < 900);
+  const framed = !!p.w && !!p.h && (vertical ? p.w > p.h * 0.75 || p.w < 700 : p.h > p.w * 0.8 || p.w < 900);
   if (framed) {
     return (
       <div style={{ position: "absolute", inset: 0, overflow: "hidden", backgroundColor: "#000" }}>
@@ -69,11 +72,11 @@ export const PhotoLayer = ({
           src={staticFile(p.src)}
           style={{ ...imgStyle("50% 50%"), filter: "blur(40px) brightness(0.45)", scale: "1.25" }}
         />
-        <div style={{ position: "absolute", inset: 0, display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div style={{ position: "absolute", inset: vertical ? "400px 0 420px 0" : 0, display: "flex", justifyContent: "center", alignItems: "center" }}>
           <Img
             src={staticFile(p.src)}
             style={{
-              ...fit(p.w ?? 1, p.h ?? 1),
+              ...fit(p.w ?? 1, p.h ?? 1, vertical),
               scale: `${(zoom - 0.06) * punch}`,
               boxShadow: "0 20px 60px rgba(0,0,0,0.7)",
               border: "6px solid #fff",
@@ -90,7 +93,15 @@ export const PhotoLayer = ({
   );
 };
 
-export const PhotoCredit = ({ photos, sentences }: { readonly photos: readonly Photo[]; readonly sentences: readonly Sentence[] }) => {
+export const PhotoCredit = ({
+  photos,
+  sentences,
+  top,
+}: {
+  readonly photos: readonly Photo[];
+  readonly sentences: readonly Sentence[];
+  readonly top?: number;
+}) => {
   const frame = useCurrentFrame();
   if (photos.length === 0) return null;
   let idx = 0;
@@ -101,7 +112,7 @@ export const PhotoCredit = ({ photos, sentences }: { readonly photos: readonly P
       style={{
         position: "absolute",
         left: 24,
-        bottom: 14,
+        ...(top === undefined ? { bottom: 14 } : { top }),
         fontFamily: "Inter, sans-serif",
         fontSize: 18,
         color: "rgba(255,255,255,0.75)",

@@ -2,55 +2,155 @@
   "intro": "What's up, hoop fans! Today we've got twenty-five crazy basketball facts that you've probably never heard before. Some are weird, some are wild, and some will totally change the way you see the game. Make sure you stick around until the very end, because the last one is my favorite. Let's jump right in!",
   "outro": "And that's twenty-five basketball facts! Which one surprised you the most? Let me know in the comments. If you enjoyed this video, smash that like button and subscribe for more. Thanks for watching, and I'll see you in the next one. Peace!",
   "facts": [
-    { "title": "Invented in two weeks", "stat": "1891", "statLabel": "Springfield, Massachusetts",
-      "narration": "Fact number one. Basketball was invented in December of eighteen ninety-one by James Naismith, a Canadian teacher working in Springfield, Massachusetts. His boss gave him just two weeks to create an indoor game that would keep students active during the cold New England winter. Talk about pressure! And the game he came up with now has hundreds of millions of fans all around the world." },
-    { "title": "Peach baskets", "stat": "PEACH", "statLabel": "baskets with the bottoms still on",
-      "narration": "Fact number two. The very first hoops were actual peach baskets, nailed to the balcony of a gym. And here's the funny part. The baskets still had their bottoms, so every time somebody scored, the game stopped and someone had to grab the ball out of the basket. Imagine doing that in the NBA today! It took years before open-bottom nets became the standard." },
-    { "title": "Why ten feet?", "stat": "10 FT", "statLabel": "the height of the gym balcony",
-      "narration": "Fact number three. Ever wondered why the rim is exactly ten feet high? It's simply because the balcony railing in Naismith's gym happened to be ten feet off the floor. That's where he nailed the baskets. More than a century later, from playgrounds to the NBA Finals, the rim is still set at that very same height." },
-    { "title": "Just thirteen rules", "stat": "13", "statLabel": "original rules, on two typed pages",
-      "narration": "Fact number four. Naismith's original game had only thirteen rules, and they fit on two typed pages. Today, the NBA rulebook is dozens of pages long. Those original pages were sold at auction in twenty ten for more than four million dollars, making them one of the most expensive sports documents ever." },
-    { "title": "The first final score", "stat": "1–0", "statLabel": "one basket in the whole game",
-      "narration": "Fact number five. The first basketball game ever played ended with a score of one to nothing. Just one basket in the whole game! It was scored by a student named William Chase. Today, NBA teams regularly score more than one hundred points a night. So yeah, the offense has improved a little bit." },
-    { "title": "No dribbling allowed", "stat": "0", "statLabel": "dribbles in the original rules",
-      "narration": "Fact number six. In the original game, dribbling wasn't part of the plan. Naismith's rules said a player could not run with the ball. You had to pass it from the spot where you caught it. Dribbling grew out of players finding loopholes, and it slowly became one of the most important skills in the sport." },
-    { "title": "Played with a soccer ball", "stat": "SOCCER", "statLabel": "ball used in the first games",
-      "narration": "Fact number seven. The first basketball games weren't even played with a basketball. They used a soccer ball! A ball designed specifically for basketball didn't show up until a few years later. Early versions were made of stitched leather panels around a rubber bladder, and they were nowhere near as round or bouncy as the balls we use today." },
-    { "title": "Women played from day one", "stat": "1892", "statLabel": "Senda Berenson, Smith College",
-      "narration": "Fact number eight. Women started playing basketball almost immediately. In eighteen ninety-two, just one year after the game was invented, Senda Berenson introduced it at Smith College in Massachusetts. She adapted the rules for her students, and the first women's college game was played there the next year. Women's basketball is basically as old as the sport itself!" },
-    { "title": "The inventor's losing record", "stat": "55–60", "statLabel": "Naismith's record at Kansas",
-      "narration": "Fact number nine. Here's an ironic one. James Naismith later became the first basketball coach at the University of Kansas. But the man who invented the game is the only coach in Kansas history with a losing record. He finished with fifty-five wins and sixty losses. Being a genius inventor doesn't always make you a great coach!" },
-    { "title": "An Olympic final in the rain", "stat": "19–8", "statLabel": "USA vs Canada, Berlin 1936",
-      "narration": "Fact number ten. Basketball made its official Olympic debut in nineteen thirty-six, in Berlin. The final was played outdoors, on a court of sand and clay, in the pouring rain. The ball got so muddy that dribbling was almost impossible. The United States beat Canada nineteen to eight. And Naismith himself was there to watch." },
-    { "title": "The NBA's first name", "stat": "1949", "statLabel": "BAA + NBL = NBA",
-      "narration": "Fact number eleven. The NBA wasn't always called the NBA. It started in nineteen forty-six as the Basketball Association of America. Three years later, it merged with a rival league, the National Basketball League. And that's how the National Basketball Association was born. Same game, brand new name." },
-    { "title": "The lowest-scoring game", "stat": "19–18", "statLabel": "Pistons vs Lakers, 1950",
-      "narration": "Fact number twelve. The lowest scoring game in NBA history happened in nineteen fifty. The Fort Wayne Pistons beat the Minneapolis Lakers nineteen to eighteen. Fort Wayne basically held the ball to keep it away from the Lakers' star, George Mikan. Fans hated it, and games like that pushed the league to find a solution." },
-    { "title": "The shot clock math", "stat": "24 SEC", "statLabel": "introduced in 1954",
-      "narration": "Fact number thirteen. That solution was the shot clock, introduced in nineteen fifty-four. Danny Biasone, owner of the Syracuse Nationals, came up with twenty-four seconds. His math was simple. He divided the total seconds in a game by the average number of shots a game produced. Scoring instantly went up, and the game became way more exciting." },
-    { "title": "One hundred points", "stat": "100", "statLabel": "Wilt Chamberlain, March 2, 1962",
-      "narration": "Fact number fourteen. On March second, nineteen sixty-two, Wilt Chamberlain scored one hundred points in a single NBA game. One hundred! The game wasn't shown on TV, so there's no video of it at all. The most famous proof is a photo of Wilt holding a piece of paper with the number one hundred written on it." },
-    { "title": "Fifty a night", "stat": "50.4", "statLabel": "Wilt's points per game, 1961–62",
-      "narration": "Fact number fifteen. And that wasn't a fluke. In that same season, Wilt averaged fifty point four points per game. Fifty! He also played almost every single minute, averaging more than forty-eight minutes a night. That's longer than a regular game, thanks to overtime." },
-    { "title": "More rings than fingers", "stat": "11", "statLabel": "titles for Bill Russell in 13 seasons",
-      "narration": "Fact number sixteen. Bill Russell won eleven NBA championships with the Boston Celtics, in just thirteen seasons. That's more rings than he has fingers! For his final two titles, he was also the team's head coach, making him the first Black head coach in NBA history. Talk about a winner." },
-    { "title": "When dunking was banned", "stat": "1967", "statLabel": "to 1976: no dunks in college",
-      "narration": "Fact number seventeen. Believe it or not, the slam dunk was banned in college basketball from nineteen sixty-seven until nineteen seventy-six. Many people believe the rule was aimed at a dominant young center named Lew Alcindor, who later became Kareem Abdul-Jabbar. Instead of stopping him, the ban helped him perfect his legendary skyhook." },
-    { "title": "The three-point line arrives", "stat": "1979", "statLabel": "first NBA season with the three",
-      "narration": "Fact number eighteen. The three-point line didn't arrive in the NBA until the nineteen seventy-nine season. The rival ABA had already been using it for years. At first, lots of coaches thought it was just a gimmick. Today, teams shoot dozens of threes every single game, and the long ball has completely changed basketball." },
-    { "title": "The highest-scoring game", "stat": "370", "statLabel": "Pistons 186, Nuggets 184 (3OT)",
-      "narration": "Fact number nineteen. The highest scoring game in NBA history happened in December of nineteen eighty-three. The Detroit Pistons beat the Denver Nuggets one hundred eighty-six to one hundred eighty-four, in triple overtime. That's three hundred seventy total points! Compare that to the nineteen to eighteen game from earlier. What a difference." },
-    { "title": "Kareem's 39-year record", "stat": "38,387", "statLabel": "career points for Kareem",
-      "narration": "Fact number twenty. Kareem Abdul-Jabbar became the NBA's all-time leading scorer in nineteen eighty-four, and he finished his career with thirty-eight thousand, three hundred eighty-seven points. He held that record for almost thirty-nine years, until LeBron James finally passed him in February of twenty twenty-three." },
-    { "title": "LeBron hits 40,000", "stat": "40,000", "statLabel": "career points, March 2024",
-      "narration": "Fact number twenty-one. And LeBron didn't stop there. In March of twenty twenty-four, he became the first player in NBA history to score forty thousand points. To put that in perspective, if you averaged twenty-five points a game for twenty full seasons without missing a single game, you'd still only reach about forty-one thousand." },
-    { "title": "Kobe's 81", "stat": "81", "statLabel": "vs Toronto, January 22, 2006",
-      "narration": "Fact number twenty-two. On January twenty-second, two thousand six, Kobe Bryant scored eighty-one points against the Toronto Raptors. It's the second highest scoring game in NBA history, behind only Wilt's one hundred. Kobe scored fifty-five of those points in the second half alone. Absolutely unreal." },
-    { "title": "The Jordan myth", "stat": "JV", "statLabel": "not cut, just junior varsity",
-      "narration": "Fact number twenty-three. You've probably heard that Michael Jordan got cut from his high school team. That's actually a myth! As a sophomore, Jordan wasn't cut. He just didn't make the varsity squad, so he played on junior varsity instead. He used that disappointment as fuel, and, well, you know how the story ends. Six championships." },
-    { "title": "Shaq's only three", "stat": "1/22", "statLabel": "Shaq's career three-pointers",
-      "narration": "Fact number twenty-four. Shaquille O'Neal scored more than twenty-eight thousand points in his career, but he made exactly one three-pointer. He went one for twenty-two from deep, over nineteen seasons. That single three came in nineteen ninety-six, against the Milwaukee Bucks. Big men just didn't need the three-point line back then." },
-    { "title": "Tallest and shortest, same team", "stat": "28 IN", "statLabel": "Manute Bol vs Muggsy Bogues",
-      "narration": "And fact number twenty-five. In the nineteen eighty-seven season, the Washington Bullets had both the tallest and the shortest players in the league on the same team. Manute Bol stood seven foot seven, and Muggsy Bogues was just five foot three. That's a difference of twenty-eight inches! Their team photo is one of the most iconic pictures in basketball history." }
+    {
+      "title": "Invented in two weeks",
+      "stat": "1891",
+      "statLabel": "Springfield, Massachusetts",
+      "narration": "Fact number one! Basketball was invented in December of eighteen ninety-one by James Naismith, a Canadian teacher working in Springfield, Massachusetts. His boss gave him just two weeks to create an indoor game that would keep students active during the cold New England winter. Talk about pressure! And the game he came up with now has hundreds of millions of fans all around the world!"
+    },
+    {
+      "title": "Peach baskets",
+      "stat": "PEACH",
+      "statLabel": "baskets with the bottoms still on",
+      "narration": "Fact number two! The very first hoops were actual peach baskets, nailed to the balcony of a gym. And here's the funny part. The baskets still had their bottoms, so every time somebody scored, the game stopped and someone had to grab the ball out of the basket. Imagine doing that in the NBA today! It took years before open-bottom nets became the standard!"
+    },
+    {
+      "title": "Why ten feet?",
+      "stat": "10 FT",
+      "statLabel": "the height of the gym balcony",
+      "narration": "Fact number three! Ever wondered why the rim is exactly ten feet high? It's simply because the balcony railing in Naismith's gym happened to be ten feet off the floor. That's where he nailed the baskets. More than a century later, from playgrounds to the NBA Finals, the rim is still set at that very same height!"
+    },
+    {
+      "title": "Just thirteen rules",
+      "stat": "13",
+      "statLabel": "original rules, on two typed pages",
+      "narration": "Fact number four! Naismith's original game had only thirteen rules, and they fit on two typed pages. Today, the NBA rulebook is dozens of pages long. Those original pages were sold at auction in twenty ten for more than four million dollars, making them one of the most expensive sports documents ever!"
+    },
+    {
+      "title": "The first final score",
+      "stat": "1–0",
+      "statLabel": "one basket in the whole game",
+      "narration": "Fact number five! The first basketball game ever played ended with a score of one to nothing. Just one basket in the whole game! It was scored by a student named William Chase. Today, NBA teams regularly score more than one hundred points a night. So yeah, the offense has improved a little bit!"
+    },
+    {
+      "title": "No dribbling allowed",
+      "stat": "0",
+      "statLabel": "dribbles in the original rules",
+      "narration": "Fact number six! In the original game, dribbling wasn't part of the plan. Naismith's rules said a player could not run with the ball. You had to pass it from the spot where you caught it. Dribbling grew out of players finding loopholes, and it slowly became one of the most important skills in the sport!"
+    },
+    {
+      "title": "Played with a soccer ball",
+      "stat": "SOCCER",
+      "statLabel": "ball used in the first games",
+      "narration": "Fact number seven! The first basketball games weren't even played with a basketball. They used a soccer ball! A ball designed specifically for basketball didn't show up until a few years later. Early versions were made of stitched leather panels around a rubber bladder, and they were nowhere near as round or bouncy as the balls we use today!"
+    },
+    {
+      "title": "Women played from day one",
+      "stat": "1892",
+      "statLabel": "Senda Berenson, Smith College",
+      "narration": "Fact number eight! Women started playing basketball almost immediately. In eighteen ninety-two, just one year after the game was invented, Senda Berenson introduced it at Smith College in Massachusetts. She adapted the rules for her students, and the first women's college game was played there the next year. Women's basketball is basically as old as the sport itself!"
+    },
+    {
+      "title": "The inventor's losing record",
+      "stat": "55–60",
+      "statLabel": "Naismith's record at Kansas",
+      "narration": "Fact number nine! Here's an ironic one. James Naismith later became the first basketball coach at the University of Kansas. But the man who invented the game is the only coach in Kansas history with a losing record. He finished with fifty-five wins and sixty losses. Being a genius inventor doesn't always make you a great coach!"
+    },
+    {
+      "title": "An Olympic final in the rain",
+      "stat": "19–8",
+      "statLabel": "USA vs Canada, Berlin 1936",
+      "narration": "Fact number ten! Basketball made its official Olympic debut in nineteen thirty-six, in Berlin. The final was played outdoors, on a court of sand and clay, in the pouring rain. The ball got so muddy that dribbling was almost impossible. The United States beat Canada nineteen to eight. And Naismith himself was there to watch!"
+    },
+    {
+      "title": "The NBA's first name",
+      "stat": "1949",
+      "statLabel": "BAA + NBL = NBA",
+      "narration": "Fact number eleven! The NBA wasn't always called the NBA. It started in nineteen forty-six as the Basketball Association of America. Three years later, it merged with a rival league, the National Basketball League. And that's how the National Basketball Association was born. Same game, brand new name!"
+    },
+    {
+      "title": "The lowest-scoring game",
+      "stat": "19–18",
+      "statLabel": "Pistons vs Lakers, 1950",
+      "narration": "Fact number twelve! The lowest scoring game in NBA history happened in nineteen fifty. The Fort Wayne Pistons beat the Minneapolis Lakers nineteen to eighteen. Fort Wayne basically held the ball to keep it away from the Lakers' star, George Mikan. Fans hated it, and games like that pushed the league to find a solution!"
+    },
+    {
+      "title": "The shot clock math",
+      "stat": "24 SEC",
+      "statLabel": "introduced in 1954",
+      "narration": "Fact number thirteen! That solution was the shot clock, introduced in nineteen fifty-four. Danny Biasone, owner of the Syracuse Nationals, came up with twenty-four seconds. His math was simple. He divided the total seconds in a game by the average number of shots a game produced. Scoring instantly went up, and the game became way more exciting!"
+    },
+    {
+      "title": "One hundred points",
+      "stat": "100",
+      "statLabel": "Wilt Chamberlain, March 2, 1962",
+      "narration": "Fact number fourteen! On March second, nineteen sixty-two, Wilt Chamberlain scored one hundred points in a single NBA game. One hundred! The game wasn't shown on TV, so there's no video of it at all. The most famous proof is a photo of Wilt holding a piece of paper with the number one hundred written on it!"
+    },
+    {
+      "title": "Fifty a night",
+      "stat": "50.4",
+      "statLabel": "Wilt's points per game, 1961–62",
+      "narration": "Fact number fifteen! And that wasn't a fluke. In that same season, Wilt averaged fifty point four points per game. Fifty! He also played almost every single minute, averaging more than forty-eight minutes a night. That's longer than a regular game, thanks to overtime!"
+    },
+    {
+      "title": "More rings than fingers",
+      "stat": "11",
+      "statLabel": "titles for Bill Russell in 13 seasons",
+      "narration": "Fact number sixteen! Bill Russell won eleven NBA championships with the Boston Celtics, in just thirteen seasons. That's more rings than he has fingers! For his final two titles, he was also the team's head coach, making him the first Black head coach in NBA history. Talk about a winner!"
+    },
+    {
+      "title": "When dunking was banned",
+      "stat": "1967",
+      "statLabel": "to 1976: no dunks in college",
+      "narration": "Fact number seventeen! Believe it or not, the slam dunk was banned in college basketball from nineteen sixty-seven until nineteen seventy-six. Many people believe the rule was aimed at a dominant young center named Lew Alcindor, who later became Kareem Abdul-Jabbar. Instead of stopping him, the ban helped him perfect his legendary skyhook!"
+    },
+    {
+      "title": "The three-point line arrives",
+      "stat": "1979",
+      "statLabel": "first NBA season with the three",
+      "narration": "Fact number eighteen! The three-point line didn't arrive in the NBA until the nineteen seventy-nine season. The rival ABA had already been using it for years. At first, lots of coaches thought it was just a gimmick. Today, teams shoot dozens of threes every single game, and the long ball has completely changed basketball!"
+    },
+    {
+      "title": "The highest-scoring game",
+      "stat": "370",
+      "statLabel": "Pistons 186, Nuggets 184 (3OT)",
+      "narration": "Fact number nineteen! The highest scoring game in NBA history happened in December of nineteen eighty-three. The Detroit Pistons beat the Denver Nuggets one hundred eighty-six to one hundred eighty-four, in triple overtime. That's three hundred seventy total points! Compare that to the nineteen to eighteen game from earlier. What a difference!"
+    },
+    {
+      "title": "Kareem's 39-year record",
+      "stat": "38,387",
+      "statLabel": "career points for Kareem",
+      "narration": "Fact number twenty! Kareem Abdul-Jabbar became the NBA's all-time leading scorer in nineteen eighty-four, and he finished his career with thirty-eight thousand, three hundred eighty-seven points. He held that record for almost thirty-nine years, until LeBron James finally passed him in February of twenty twenty-three!"
+    },
+    {
+      "title": "LeBron hits 40,000",
+      "stat": "40,000",
+      "statLabel": "career points, March 2024",
+      "narration": "Fact number twenty-one! And LeBron didn't stop there. In March of twenty twenty-four, he became the first player in NBA history to score forty thousand points. To put that in perspective, if you averaged twenty-five points a game for twenty full seasons without missing a single game, you'd still only reach about forty-one thousand!"
+    },
+    {
+      "title": "Kobe's 81",
+      "stat": "81",
+      "statLabel": "vs Toronto, January 22, 2006",
+      "narration": "Fact number twenty-two! On January twenty-second, two thousand six, Kobe Bryant scored eighty-one points against the Toronto Raptors. It's the second highest scoring game in NBA history, behind only Wilt's one hundred. Kobe scored fifty-five of those points in the second half alone. Absolutely unreal!"
+    },
+    {
+      "title": "The Jordan myth",
+      "stat": "JV",
+      "statLabel": "not cut, just junior varsity",
+      "narration": "Fact number twenty-three! You've probably heard that Michael Jordan got cut from his high school team. That's actually a myth! As a sophomore, Jordan wasn't cut. He just didn't make the varsity squad, so he played on junior varsity instead. He used that disappointment as fuel, and, well, you know how the story ends. Six championships!"
+    },
+    {
+      "title": "Shaq's only three",
+      "stat": "1/22",
+      "statLabel": "Shaq's career three-pointers",
+      "narration": "Fact number twenty-four! Shaquille O'Neal scored more than twenty-eight thousand points in his career, but he made exactly one three-pointer. He went one for twenty-two from deep, over nineteen seasons. That single three came in nineteen ninety-six, against the Milwaukee Bucks. Big men just didn't need the three-point line back then!"
+    },
+    {
+      "title": "Tallest and shortest, same team",
+      "stat": "28 IN",
+      "statLabel": "Manute Bol vs Muggsy Bogues",
+      "narration": "And fact number twenty-five. In the nineteen eighty-seven season, the Washington Bullets had both the tallest and the shortest players in the league on the same team. Manute Bol stood seven foot seven, and Muggsy Bogues was just five foot three. That's a difference of twenty-eight inches! Their team photo is one of the most iconic pictures in basketball history!"
+    }
   ]
 }
