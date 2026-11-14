@@ -1,27 +1,51 @@
-import { AbsoluteFill } from "remotion";
+import { AbsoluteFill, Img, staticFile } from "remotion";
 import { colors, displayFont } from "../Intro/theme";
 import { Squirrel } from "./Squirrel";
 
 // Miniatura de YouTube (1280x720).
 export const Thumbnail = () => (
   <AbsoluteFill style={{ backgroundColor: colors.ink, overflow: "hidden" }}>
+    {/* foto de estadio de fondo */}
+    <Img
+      src={staticFile("images/basket/basketball-game-in-jerusalem-israel-s-new-pais-arena-jpg.jpg")}
+      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", filter: "saturate(1.2) brightness(0.75)" }}
+    />
     <div
       style={{
         position: "absolute",
         inset: 0,
-        background: "radial-gradient(circle at 78% 50%, rgba(242,140,40,0.55), transparent 50%), radial-gradient(circle at 15% 100%, rgba(212,255,58,0.18), transparent 45%)",
+        background: "linear-gradient(90deg, rgba(14,14,16,0.95) 0%, rgba(14,14,16,0.75) 40%, rgba(14,14,16,0.1) 75%)",
       }}
     />
-    {/* líneas de velocidad */}
-    <svg viewBox="0 0 1280 720" style={{ position: "absolute", inset: 0 }}>
-      <g stroke={colors.paper} strokeWidth={10} strokeLinecap="round" opacity={0.35}>
-        <path d="M620 250 L720 300" />
-        <path d="M600 380 L710 395" />
-        <path d="M630 510 L725 480" />
-      </g>
-    </svg>
-    <div style={{ position: "absolute", right: -10, top: 40, rotate: "4deg" }}>
-      <Squirrel mouth={[90]} size={520} />
+    {/* foto destacada con marco */}
+    <div style={{ position: "absolute", left: 660, top: 60, rotate: "-5deg" }}>
+      <Img
+        src={staticFile("images/basket/wilt-chamberlain-100-point-game-1962-jpg.jpg")}
+        style={{ width: 330, height: 420, objectFit: "cover", border: "8px solid #fff", boxShadow: "0 18px 40px rgba(0,0,0,0.7)" }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          right: -20,
+          top: -30,
+          whiteSpace: "nowrap",
+          padding: "6px 18px 10px",
+          backgroundColor: "#F28C28",
+          color: "#fff",
+          border: "5px solid #fff",
+          borderRadius: 12,
+          fontFamily: displayFont,
+          fontWeight: 800,
+          fontSize: 54,
+          rotate: "4deg",
+          boxShadow: "0 8px 0 rgba(0,0,0,0.5)",
+        }}
+      >
+        100 PTS?!
+      </div>
+    </div>
+    <div style={{ position: "absolute", right: -40, top: 150, rotate: "6deg" }}>
+      <Squirrel mouth={[90]} size={420} />
     </div>
     <div style={{ position: "absolute", left: 64, top: 70, display: "flex", flexDirection: "column" }}>
       <div
