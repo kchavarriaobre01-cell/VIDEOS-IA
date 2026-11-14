@@ -101,7 +101,7 @@ for (const seg of segments) {
   else execFileSync("npx", ["remotion", "ffmpeg", ...args]);
   unlinkSync(wav);
 
-  manifest.segments.push({ id: seg.id, frames: totalFrames, audio: `voiceover/basket/${seg.id}.mp3`, sentences, mouth });
+  manifest.segments.push({ id: seg.id, frames: totalFrames, audio: `${outDir.replace("public/", "")}/${seg.id}.mp3`, sentences, mouth });
   console.log(`${seg.id}: ${(totalFrames / FPS).toFixed(1)} s`);
 }
 writeFileSync("src/Colors/voice.json", JSON.stringify(manifest));
