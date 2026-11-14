@@ -12,3 +12,10 @@ export type Fact = {
   readonly statLabel: string;
   readonly narration: string;
 };
+export type Photo = {
+  readonly src: string;
+  readonly credit: string;
+  readonly license: string;
+  readonly page: string;
+  readonly focus?: string;
+};
