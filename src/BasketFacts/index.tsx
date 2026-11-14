@@ -37,12 +37,13 @@ const speaking = (() => {
 const MUSIC_TALKING = 0.07;
 const MUSIC_PAUSE = 0.2;
 
-const musicVolume = (f: number) => {
+const musicVolume = (frame: number) => {
+  const f = Number.isFinite(frame) ? Math.round(frame) : 0;
   // Promedio de 16 frames alrededor para que el volumen cambie suave.
   let sum = 0;
-  for (let k = -8; k < 8; k++) sum += speaking[Math.min(basketTotalFrames - 1, Math.max(0, f + k))];
+  for (let k = -8; k < 8; k++) sum += speaking[Math.min(basketTotalFrames - 1, Math.max(0, f + k))] ?? 0;
   const talk = sum / 16;
-  const fadeOut = Math.min(1, (basketTotalFrames - f) / 60);
+  const fadeOut = Math.max(0, Math.min(1, (basketTotalFrames - f) / 60));
   return (MUSIC_PAUSE - (MUSIC_PAUSE - MUSIC_TALKING) * talk) * fadeOut;
 };
 
