@@ -2,6 +2,7 @@ import { Composition, Folder } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { Title } from "./HelloWorld/Title";
+import { BasketFacts, basketTotalFrames } from "./BasketFacts";
 import { Intro } from "./Intro";
 import { IntroVoz } from "./IntroVoz";
 import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
@@ -11,6 +12,14 @@ import { calculateIntroVozMetadata } from "./IntroVoz/metadata";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="BasketFacts"
+        component={BasketFacts}
+        durationInFrames={basketTotalFrames}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="Intro"
         component={Intro}

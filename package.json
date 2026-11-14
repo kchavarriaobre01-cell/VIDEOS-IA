@@ -35,7 +35,8 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "voz": "node scripts/generate-voiceover.mjs",
-    "voz:elevenlabs": "node scripts/generate-voiceover-elevenlabs.mjs"
+    "voz:elevenlabs": "node scripts/generate-voiceover-elevenlabs.mjs",
+    "voz:basket": "node scripts/generate-basket-voice.mjs"
   },
   "allowScripts": {
     "esbuild": false
