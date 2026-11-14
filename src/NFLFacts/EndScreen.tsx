@@ -16,9 +16,9 @@ export const EndScreen = () => {
       style={{
         position: "absolute",
         left,
-        top: 300,
-        width: 720,
-        height: 405,
+        top: 250,
+        width: 680,
+        height: 383,
         borderRadius: 18,
         border: `6px solid ${orange}`,
         backgroundColor: "rgba(0,0,0,0.55)",
@@ -55,14 +55,14 @@ export const EndScreen = () => {
         </div>
       </div>
       <Box left={150} label="VIDEO" d={8} />
-      <Box left={1050} label="VIDEO" d={14} />
+      <Box left={960} label="VIDEO" d={14} />
       {/* espacio para el botón de suscribirse */}
-      <div style={{ position: "absolute", left: 960 - 110, top: 770, width: 220, height: 220, borderRadius: "50%", border: `6px dashed ${colors.lime}`, backgroundColor: "rgba(0,0,0,0.5)", scale: `${pop(20) * pulse}` }} />
+      <div style={{ position: "absolute", left: 960 - 110, top: 720, width: 220, height: 220, borderRadius: "50%", border: `6px dashed ${colors.lime}`, backgroundColor: "rgba(0,0,0,0.5)", scale: `${pop(20) * pulse}` }} />
       <div
         style={{
           position: "absolute",
-          left: 960 + 140,
-          top: 840,
+          right: 1920 - (960 - 140),
+          top: 790,
           fontFamily: displayFont,
           fontWeight: 800,
           fontSize: 56,
@@ -74,7 +74,7 @@ export const EndScreen = () => {
           scale: `${pop(26)}`,
         }}
       >
-        ← SUBSCRIBE!
+        SUBSCRIBE! →
       </div>
     </>
   );
