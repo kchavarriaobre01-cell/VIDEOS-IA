@@ -5,6 +5,9 @@ import { Title } from "./HelloWorld/Title";
 import { BasketFacts, basketTotalFrames } from "./BasketFacts";
 import { BasketShort, calculateShortMetadata, shortSchema } from "./BasketFacts/Short";
 import { Thumbnail } from "./BasketFacts/Thumbnail";
+import { NFLFacts, nflTotalFrames } from "./NFLFacts";
+import { calculateNflShortMetadata, NFLShort, nflShortSchema } from "./NFLFacts/Short";
+import { NFLThumbnail } from "./NFLFacts/Thumbnail";
 import { Colors, colorsTotalFrames } from "./Colors";
 import { ColorsThumbnail } from "./Colors/Thumbnail";
 import { Animals, animalsTotalFrames } from "./Animals";
@@ -20,6 +23,19 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Still id="ColorsThumbnail" component={ColorsThumbnail} width={1280} height={720} />
+      <Composition id="NFLFacts" component={NFLFacts} durationInFrames={nflTotalFrames} fps={30} width={1920} height={1080} />
+      <Composition
+        id="NFLShort"
+        component={NFLShort}
+        schema={nflShortSchema}
+        calculateMetadata={calculateNflShortMetadata}
+        defaultProps={{ fact: 1 }}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Still id="NFLThumbnail" component={NFLThumbnail} width={1280} height={720} />
       <Composition id="Colors" component={Colors} durationInFrames={colorsTotalFrames} fps={30} width={1920} height={1080} />
       <Composition id="Animals" component={Animals} durationInFrames={animalsTotalFrames} fps={30} width={1920} height={1080} />
       <Composition

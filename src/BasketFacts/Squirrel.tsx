@@ -15,7 +15,12 @@ export const Squirrel: React.FC<{
   readonly mouth: readonly number[]; // apertura 0-100 por frame
   readonly size: number;
   readonly style?: React.CSSProperties;
-}> = ({ mouth, size, style }) => {
+  readonly sport?: "basketball" | "football";
+  readonly bpm?: number;
+}> = ({ mouth, size, style, sport = "basketball", bpm = MUSIC_BPM }) => {
+  const football = sport === "football";
+  const jersey = football ? "#F28C28" : colors.lime;
+  const jerseyText = football ? "#fff" : colors.ink;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -24,18 +29,19 @@ export const Squirrel: React.FC<{
   const talking = Math.max(raw(frame - 3), raw(frame), raw(frame + 3));
 
   // Bote del balón sincronizado con la música (toca el suelo en cada pulso).
-  const beatFrames = (60 / MUSIC_BPM) * fps;
+  const beatFrames = (60 / bpm) * fps;
   const phase = (frame % beatFrames) / beatFrames;
   const height = Math.sin(Math.PI * phase); // 0 = suelo, 1 = mano
   const floorY = 584;
   const ballR = 40;
   const ballX = 372;
-  const ballY = floorY - ballR - height * 150;
   const pawX = ballX - 4;
   // La mano solo baja un poco; el balón es el que viaja hasta el suelo.
   const handTop = floorY - ballR * 2 - 150 - 6;
-  const pawY = handTop + (1 - height) * 36;
-  const squash = phase < 0.07 || phase > 0.96 ? 0.12 : 0;
+  // Fútbol americano: lanza el balón hacia arriba y lo atrapa en cada pulso.
+  const pawY = football ? handTop + 40 - height * 16 : handTop + (1 - height) * 36;
+  const ballY = football ? pawY - 34 - height * 170 : floorY - ballR - height * 150;
+  const squash = !football && (phase < 0.07 || phase > 0.96) ? 0.12 : 0;
 
   const blinkPhase = (frame + 31) % 103;
   const eyeOpen = blinkPhase < 6 ? Math.abs(blinkPhase - 3) / 3 : 1;
@@ -50,7 +56,7 @@ export const Squirrel: React.FC<{
     <svg viewBox="0 0 460 600" width={size} height={(size * 600) / 460} style={style}>
       {/* sombras */}
       <ellipse cx={200} cy={588} rx={120} ry={11} fill="#000" opacity={0.35} />
-      <ellipse cx={ballX} cy={588} rx={ballR * (1 - height * 0.4)} ry={7} fill="#000" opacity={0.35 - height * 0.2} />
+      {football ? null : <ellipse cx={ballX} cy={588} rx={ballR * (1 - height * 0.4)} ry={7} fill="#000" opacity={0.35 - height * 0.2} />}
 
       {/* cola esponjosa */}
       <g style={{ rotate: `${tailSway}deg`, transformOrigin: "150px 470px" }}>
@@ -72,13 +78,20 @@ export const Squirrel: React.FC<{
         <path d="M140 572 L188 572 M212 572 L260 572" stroke={colors.lime} strokeWidth={5} />
 
         {/* pantalón corto */}
-        <path d="M138 438 L262 438 L270 512 L208 512 L200 482 L192 512 L130 512 Z" fill={colors.ink} stroke={outline} strokeWidth={4} />
-        <path d="M134 470 L139 512 M266 470 L261 512" stroke={colors.lime} strokeWidth={8} />
+        <path d="M138 438 L262 438 L270 512 L208 512 L200 482 L192 512 L130 512 Z" fill={football ? "#F4F1EA" : colors.ink} stroke={outline} strokeWidth={4} />
+        <path d="M134 470 L139 512 M266 470 L261 512" stroke={football ? "#F28C28" : colors.lime} strokeWidth={8} />
 
         {/* camiseta de tirantes */}
-        <path d="M145 300 L170 300 Q200 330 230 300 L255 300 L268 448 L132 448 Z" fill={colors.lime} stroke={outline} strokeWidth={4} />
+        <path d="M145 300 L170 300 Q200 330 230 300 L255 300 L268 448 L132 448 Z" fill={jersey} stroke={outline} strokeWidth={4} />
+        {football ? (
+          <>
+            {/* hombreras */}
+            <path d="M118 330 Q120 292 168 292 Q200 322 232 292 Q280 292 282 330 Q250 346 200 340 Q150 346 118 330 Z" fill={jersey} stroke={outline} strokeWidth={4} />
+            <path d="M126 322 L160 312 M274 322 L240 312" stroke="#fff" strokeWidth={6} strokeLinecap="round" />
+          </>
+        ) : null}
         <path d="M170 300 Q200 334 230 300" fill="none" stroke={colors.ink} strokeWidth={7} />
-        <text x={200} y={415} textAnchor="middle" fontFamily={displayFont} fontWeight={800} fontSize={62} fill={colors.ink}>
+        <text x={200} y={415} textAnchor="middle" fontFamily={displayFont} fontWeight={800} fontSize={62} fill={jerseyText} stroke={football ? outline : "none"} strokeWidth={football ? 3 : 0}>
           25
         </text>
 
@@ -95,6 +108,16 @@ export const Squirrel: React.FC<{
       </g>
 
       {/* balón */}
+      {football ? (
+        <g style={{ rotate: `${-30 + height * 200}deg`, transformOrigin: `${ballX}px ${ballY}px` }}>
+          <ellipse cx={ballX} cy={ballY} rx={46} ry={28} fill="#8B4513" stroke={outline} strokeWidth={4} />
+          <path d={`M${ballX - 30} ${ballY - 19} Q${ballX - 34} ${ballY} ${ballX - 30} ${ballY + 19} M${ballX + 30} ${ballY - 19} Q${ballX + 34} ${ballY} ${ballX + 30} ${ballY + 19}`} fill="none" stroke="#fff" strokeWidth={4} />
+          <path d={`M${ballX - 14} ${ballY} L${ballX + 14} ${ballY}`} stroke="#fff" strokeWidth={4} strokeLinecap="round" />
+          {[-9, -3, 3, 9].map((d) => (
+            <path key={d} d={`M${ballX + d} ${ballY - 5} L${ballX + d} ${ballY + 5}`} stroke="#fff" strokeWidth={3} strokeLinecap="round" />
+          ))}
+        </g>
+      ) : (
       <g style={{ scale: `${1 + squash} ${1 - squash}`, transformOrigin: `${ballX}px ${ballY + ballR}px` }}>
         <circle cx={ballX} cy={ballY} r={ballR} fill="#F28C28" stroke={outline} strokeWidth={4} />
         <g fill="none" stroke={outline} strokeWidth={3.5} style={{ rotate: `${frame * 6}deg`, transformOrigin: `${ballX}px ${ballY}px` }}>
@@ -104,6 +127,7 @@ export const Squirrel: React.FC<{
           <path d={`M${ballX + 28} ${ballY - 28} Q${ballX + 8} ${ballY} ${ballX + 28} ${ballY + 28}`} />
         </g>
       </g>
+      )}
       {/* pata encima del balón */}
       <circle cx={pawX} cy={pawY} r={17} fill={furLight} stroke={outline} strokeWidth={4} style={{ translate: `0px ${bob * 0.5}px` }} />
 
@@ -120,9 +144,13 @@ export const Squirrel: React.FC<{
         <ellipse cx={200} cy={190} rx={128} ry={118} fill={fur} stroke={outline} strokeWidth={5} />
         {/* cara clara */}
         <ellipse cx={200} cy={240} rx={86} ry={64} fill={furLight} />
-        {/* cinta */}
-        <path d="M78 140 Q200 92 322 140 L326 166 Q200 118 74 166 Z" fill={colors.paper} stroke={outline} strokeWidth={4} />
-        <path d="M76 154 Q200 106 324 154" fill="none" stroke={colors.lime} strokeWidth={8} />
+        {/* cinta (basket) */}
+        {football ? null : (
+          <>
+            <path d="M78 140 Q200 92 322 140 L326 166 Q200 118 74 166 Z" fill={colors.paper} stroke={outline} strokeWidth={4} />
+            <path d="M76 154 Q200 106 324 154" fill="none" stroke={colors.lime} strokeWidth={8} />
+          </>
+        )}
         {/* mejillas */}
         <ellipse cx={112} cy={238} rx={24} ry={14} fill="#FF5A5A" opacity={0.35} />
         <ellipse cx={288} cy={238} rx={24} ry={14} fill="#FF5A5A" opacity={0.35} />
@@ -143,6 +171,13 @@ export const Squirrel: React.FC<{
             ) : null}
           </g>
         ))}
+        {/* pintura negra bajo los ojos (fútbol) */}
+        {football ? (
+          <g fill={colors.ink}>
+            <rect x={128} y={244} width={40} height={9} rx={4} />
+            <rect x={232} y={244} width={40} height={9} rx={4} />
+          </g>
+        ) : null}
         {/* nariz */}
         <path d="M186 232 Q200 224 214 232 Q208 246 200 248 Q192 246 186 232 Z" fill={outline} />
         {/* boca + dientes de ardilla */}
