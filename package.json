@@ -43,7 +43,9 @@
     "voz:colors": "node scripts/generate-colors-voice.mjs",
     "musica:colors": "node scripts/generate-kids-music.mjs",
     "musica:nfl": "node scripts/generate-nfl-music.mjs",
-    "voz:nfl": "node scripts/generate-nfl-voice.mjs"
+    "voz:nfl": "node scripts/generate-nfl-voice.mjs",
+    "voz:soccer": "node scripts/generate-soccer-voice.mjs",
+    "musica:soccer": "node scripts/generate-soccer-music.mjs"
   },
   "allowScripts": {
     "esbuild": false
