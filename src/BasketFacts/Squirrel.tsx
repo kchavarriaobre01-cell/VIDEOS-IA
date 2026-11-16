@@ -15,14 +15,15 @@ export const Squirrel: React.FC<{
   readonly mouth: readonly number[]; // apertura 0-100 por frame
   readonly size: number;
   readonly style?: React.CSSProperties;
-  readonly sport?: "basketball" | "football" | "soccer";
+  readonly sport?: "basketball" | "football" | "soccer" | "safari";
   readonly bpm?: number;
 }> = ({ mouth, size, style, sport = "basketball", bpm = MUSIC_BPM }) => {
   const football = sport === "football";
   const soccer = sport === "soccer";
-  const jersey = football ? "#F28C28" : soccer ? "#1E6FE0" : colors.lime;
+  const safari = sport === "safari";
+  const jersey = football ? "#F28C28" : soccer ? "#1E6FE0" : safari ? "#C9A86A" : colors.lime;
   const jerseyText = football || soccer ? "#fff" : colors.ink;
-  const trim = football ? "#F28C28" : soccer ? "#1E6FE0" : colors.lime;
+  const trim = football ? "#F28C28" : soccer ? "#1E6FE0" : safari ? "#7A5A2A" : colors.lime;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -41,7 +42,7 @@ export const Squirrel: React.FC<{
   // La mano solo baja un poco; el balón es el que viaja hasta el suelo.
   const handTop = floorY - ballR * 2 - 150 - 6;
   // Fútbol americano: lanza el balón hacia arriba y lo atrapa en cada pulso.
-  const pawY = soccer ? 420 : football ? handTop + 40 - height * 16 : handTop + (1 - height) * 36;
+  const pawY = soccer ? 420 : football || safari ? handTop + 40 - height * 16 : handTop + (1 - height) * 36;
   // Fútbol: dominadas con el pie derecho, el pie toca el balón en cada pulso.
   const kick = soccer ? Math.max(0, 1 - phase * 5, (phase - 0.82) * 5.5) : 0;
   const soccerR = 34;
@@ -61,7 +62,7 @@ export const Squirrel: React.FC<{
     <svg viewBox="0 0 460 600" width={size} height={(size * 600) / 460} style={style}>
       {/* sombras */}
       <ellipse cx={200} cy={588} rx={120} ry={11} fill="#000" opacity={0.35} />
-      {football ? null : <ellipse cx={ballX} cy={588} rx={(soccer ? soccerR : ballR) * (1 - height * 0.4)} ry={7} fill="#000" opacity={0.35 - height * 0.2} />}
+      {football || safari ? null : <ellipse cx={ballX} cy={588} rx={(soccer ? soccerR : ballR) * (1 - height * 0.4)} ry={7} fill="#000" opacity={0.35 - height * 0.2} />}
 
       {/* cola esponjosa */}
       <g style={{ rotate: `${tailSway}deg`, transformOrigin: "150px 470px" }}>
@@ -88,7 +89,7 @@ export const Squirrel: React.FC<{
         </g>
 
         {/* pantalón corto */}
-        <path d="M138 438 L262 438 L270 512 L208 512 L200 482 L192 512 L130 512 Z" fill={football || soccer ? "#F4F1EA" : colors.ink} stroke={outline} strokeWidth={4} />
+        <path d="M138 438 L262 438 L270 512 L208 512 L200 482 L192 512 L130 512 Z" fill={safari ? "#9C7E4A" : football || soccer ? "#F4F1EA" : colors.ink} stroke={outline} strokeWidth={4} />
         <path d="M134 470 L139 512 M266 470 L261 512" stroke={trim} strokeWidth={8} />
 
         {/* camiseta de tirantes */}
@@ -108,9 +109,22 @@ export const Squirrel: React.FC<{
           </>
         ) : null}
         <path d="M170 300 Q200 334 230 300" fill="none" stroke={soccer ? "#fff" : colors.ink} strokeWidth={7} />
+        {safari ? (
+          <g fill="#5A4220">
+            {/* bolsillos y huella */}
+            <rect x={150} y={340} width={36} height={30} rx={4} fill="none" stroke="#7A5A2A" strokeWidth={4} />
+            <rect x={214} y={340} width={36} height={30} rx={4} fill="none" stroke="#7A5A2A" strokeWidth={4} />
+            <ellipse cx={200} cy={410} rx={17} ry={14} />
+            <circle cx={180} cy={388} r={7} />
+            <circle cx={194} cy={380} r={7} />
+            <circle cx={208} cy={380} r={7} />
+            <circle cx={221} cy={388} r={7} />
+          </g>
+        ) : (
         <text x={200} y={415} textAnchor="middle" fontFamily={displayFont} fontWeight={800} fontSize={62} fill={jerseyText} stroke={football ? outline : "none"} strokeWidth={football ? 3 : 0}>
           {soccer ? 10 : 25}
         </text>
+        )}
 
         {/* brazo izquierdo (saluda cuando habla) */}
         <g style={{ rotate: `${-wave}deg`, transformOrigin: "142px 320px" }}>
@@ -124,8 +138,14 @@ export const Squirrel: React.FC<{
         <path d={`M258 320 Q${(258 + pawX) / 2 + 20} ${(320 + pawY) / 2 - 10} ${pawX} ${pawY}`} fill="none" stroke={fur} strokeWidth={22} strokeLinecap="round" />
       </g>
 
-      {/* balón */}
-      {soccer ? (
+      {/* balón (o lupa en safari) */}
+      {safari ? (
+        <g style={{ rotate: `${-25 + height * 20}deg`, transformOrigin: `${pawX}px ${pawY}px` }}>
+          <rect x={pawX - 7} y={pawY - 70} width={14} height={66} rx={6} fill="#6B4423" stroke={outline} strokeWidth={4} />
+          <circle cx={pawX} cy={pawY - 108} r={42} fill="#BFE8FF" fillOpacity={0.45} stroke="#3A3A3A" strokeWidth={10} />
+          <path d={`M${pawX - 22} ${pawY - 122} Q${pawX - 14} ${pawY - 136} ${pawX} ${pawY - 138}`} fill="none" stroke="#fff" strokeWidth={6} strokeLinecap="round" opacity={0.8} />
+        </g>
+      ) : soccer ? (
         <g style={{ rotate: `${frame * 9}deg`, transformOrigin: `${ballX}px ${ballY}px` }}>
           <circle cx={ballX} cy={ballY} r={soccerR} fill="#fff" stroke={outline} strokeWidth={4} />
           {[0, 72, 144, 216, 288].map((a) => {
@@ -177,12 +197,21 @@ export const Squirrel: React.FC<{
         {/* cara clara */}
         <ellipse cx={200} cy={240} rx={86} ry={64} fill={furLight} />
         {/* cinta (basket) */}
-        {football || soccer ? null : (
+        {football || soccer || safari ? null : (
           <>
             <path d="M78 140 Q200 92 322 140 L326 166 Q200 118 74 166 Z" fill={colors.paper} stroke={outline} strokeWidth={4} />
             <path d="M76 154 Q200 106 324 154" fill="none" stroke={colors.lime} strokeWidth={8} />
           </>
         )}
+        {safari ? (
+          <g>
+            {/* sombrero de explorador */}
+            <path d="M118 112 Q122 40 200 36 Q278 40 282 112 Z" fill="#D9BE84" stroke={outline} strokeWidth={5} />
+            <path d="M120 100 Q200 84 280 100 L282 114 Q200 98 118 114 Z" fill="#7A5A2A" />
+            <ellipse cx={200} cy={114} rx={150} ry={22} fill="#D9BE84" stroke={outline} strokeWidth={5} />
+            <path d="M120 112 Q200 96 280 112" fill="none" stroke="#7A5A2A" strokeWidth={10} />
+          </g>
+        ) : null}
         {/* mejillas */}
         <ellipse cx={112} cy={238} rx={24} ry={14} fill="#FF5A5A" opacity={0.35} />
         <ellipse cx={288} cy={238} rx={24} ry={14} fill="#FF5A5A" opacity={0.35} />

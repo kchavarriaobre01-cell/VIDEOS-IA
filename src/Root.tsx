@@ -11,6 +11,9 @@ import { NFLThumbnail } from "./NFLFacts/Thumbnail";
 import { SoccerFacts, soccerTotalFrames } from "./SoccerFacts";
 import { calculateSoccerShortMetadata, SoccerShort, soccerShortSchema } from "./SoccerFacts/Short";
 import { SoccerThumbnail } from "./SoccerFacts/Thumbnail";
+import { AnimalFacts, animalFactsTotalFrames } from "./AnimalFacts";
+import { AnimalFactShort, animalFactShortSchema, calculateAnimalFactShortMetadata } from "./AnimalFacts/Short";
+import { AnimalFactsThumbnail } from "./AnimalFacts/Thumbnail";
 import { Colors, colorsTotalFrames } from "./Colors";
 import { ColorsThumbnail } from "./Colors/Thumbnail";
 import { Animals, animalsTotalFrames } from "./Animals";
@@ -26,6 +29,19 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Still id="ColorsThumbnail" component={ColorsThumbnail} width={1280} height={720} />
+      <Composition id="AnimalFacts" component={AnimalFacts} durationInFrames={animalFactsTotalFrames} fps={30} width={1920} height={1080} />
+      <Composition
+        id="AnimalFactShort"
+        component={AnimalFactShort}
+        schema={animalFactShortSchema}
+        calculateMetadata={calculateAnimalFactShortMetadata}
+        defaultProps={{ fact: 25 }}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Still id="AnimalFactsThumbnail" component={AnimalFactsThumbnail} width={1280} height={720} />
       <Composition id="SoccerFacts" component={SoccerFacts} durationInFrames={soccerTotalFrames} fps={30} width={1920} height={1080} />
       <Composition
         id="SoccerShort"

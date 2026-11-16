@@ -45,7 +45,9 @@
     "musica:nfl": "node scripts/generate-nfl-music.mjs",
     "voz:nfl": "node scripts/generate-nfl-voice.mjs",
     "voz:soccer": "node scripts/generate-soccer-voice.mjs",
-    "musica:soccer": "node scripts/generate-soccer-music.mjs"
+    "musica:soccer": "node scripts/generate-soccer-music.mjs",
+    "voz:animalfacts": "node scripts/generate-animalfacts-voice.mjs",
+    "musica:animalfacts": "node scripts/generate-animalfacts-music.mjs"
   },
   "allowScripts": {
     "esbuild": false

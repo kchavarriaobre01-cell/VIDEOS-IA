@@ -1,0 +1,156 @@
+{
+ "intro": "What's up, animal lovers! Today we've got twenty-five crazy animal facts that you've probably never heard before. Animals with three hearts, animals that hold grudges, and one animal that might live forever! Stick around until the very end, because the last one is totally unbelievable. Let's go!",
+ "outro": "And that's all twenty-five! Which fact surprised you the most? Tell me in the comments! Check out one of these videos next, and don't forget to subscribe for more crazy facts. See you next time!",
+ "facts": [
+  {
+   "title": "A flamboyance of flamingos",
+   "stat": "Flamboyance",
+   "statLabel": "group name",
+   "narration": "Fact number one! A group of flamingos is called a flamboyance. And honestly, that's the perfect name! Hundreds of bright pink birds standing on one leg, all together. Now that's fabulous!"
+  },
+  {
+   "title": "Pink because of food",
+   "stat": "Pink",
+   "statLabel": "from their diet",
+   "narration": "Fact number two! Flamingos aren't born pink. Baby flamingos are gray! They turn pink because of the shrimp and algae they eat, which are full of natural pink pigments. So flamingos are literally what they eat!"
+  },
+  {
+   "title": "Tasting with their feet",
+   "stat": "Feet",
+   "statLabel": "taste sensors",
+   "narration": "Fact number three! Butterflies taste with their feet. They have taste sensors on their legs, so when they land on a leaf, they instantly know if it's good food for their babies. Imagine tasting your lunch by stepping on it!"
+  },
+  {
+   "title": "No sweet tooth",
+   "stat": "0",
+   "statLabel": "sweet taste",
+   "narration": "Fact number four! Cats can't taste sweet things. They are missing the gene that lets them detect sugar. So if your cat is staring at your cake, it's not because it wants the sugar. It's just being nosy!"
+  },
+  {
+   "title": "The animal that can't jump",
+   "stat": "0 cm",
+   "statLabel": "jump height",
+   "narration": "Fact number five! Adult elephants can't jump. Their legs are built like strong pillars to carry their huge weight, so at least one foot always stays on the ground. They can walk fast, but jumping? Never!"
+  },
+  {
+   "title": "Professional sleepers",
+   "stat": "22 h",
+   "statLabel": "sleep per day",
+   "narration": "Fact number six! Koalas can sleep up to twenty-two hours a day. They eat eucalyptus leaves, which have very little energy, so they rest almost all day long. Honestly, that's my dream schedule!"
+  },
+  {
+   "title": "Holding hands",
+   "stat": "Hand in hand",
+   "statLabel": "while sleeping",
+   "narration": "Fact number seven! Sea otters hold hands while they sleep. They float on their backs in the water, and they hold on to each other so they don't drift apart. That's the cutest thing ever!"
+  },
+  {
+   "title": "The perfect pebble",
+   "stat": "1",
+   "statLabel": "perfect pebble",
+   "narration": "Fact number eight! Some penguins look for the perfect pebble and give it to the penguin they like. If the other penguin accepts it, they use it to build their nest together. It's basically a penguin engagement ring!"
+  },
+  {
+   "title": "Spinning heads",
+   "stat": "270°",
+   "statLabel": "head rotation",
+   "narration": "Fact number nine! Owls can't move their eyes. Their eyes are shaped like tubes and stay fixed in place. So instead, owls can turn their heads up to two hundred seventy degrees. That's almost all the way around!"
+  },
+  {
+   "title": "A tongue like no other",
+   "stat": "50 cm",
+   "statLabel": "tongue length",
+   "narration": "Fact number ten! A giraffe's tongue can be about fifty centimeters long, and it's dark blue and purple! Scientists think the dark color helps protect it from sunburn while the giraffe eats leaves all day."
+  },
+  {
+   "title": "Same neck bones as you",
+   "stat": "7",
+   "statLabel": "neck bones",
+   "narration": "Fact number eleven! A giraffe's neck is super long, but it has only seven neck bones. That's the same number that you have! Each giraffe neck bone can be more than twenty-five centimeters long."
+  },
+  {
+   "title": "Flying backwards",
+   "stat": "Reverse",
+   "statLabel": "backwards flight",
+   "narration": "Fact number twelve! Hummingbirds are the only birds that can truly fly backwards. Their wings move in a figure eight and beat incredibly fast, so they can hover, fly sideways, and even go in reverse!"
+  },
+  {
+   "title": "Faster than a sports car",
+   "stat": "3 sec",
+   "statLabel": "0 to 100 km/h",
+   "narration": "Fact number thirteen! Cheetahs can go from zero to one hundred kilometers per hour in about three seconds. That's as fast as a sports car! But they can only keep that speed for a few seconds before they get tired."
+  },
+  {
+   "title": "Black skin under white fur",
+   "stat": "Black",
+   "statLabel": "skin color",
+   "narration": "Fact number fourteen! Polar bears look white, but their skin is actually black! And their fur isn't really white either. Each hair is clear and hollow, and it just looks white because it reflects the light."
+  },
+  {
+   "title": "No brain, no blood",
+   "stat": "0",
+   "statLabel": "brains",
+   "narration": "Fact number fifteen! Starfish have no brain and no blood. Instead of blood, they pump seawater through their bodies. And if they lose an arm, many of them can grow it back!"
+  },
+  {
+   "title": "Sleeping with half a brain",
+   "stat": "50%",
+   "statLabel": "brain asleep",
+   "narration": "Fact number sixteen! Dolphins sleep with only half of their brain at a time. The other half stays awake, so they can keep breathing and watch out for danger. Imagine sleeping with one eye open, for real!"
+  },
+  {
+   "title": "Crows never forget",
+   "stat": "Years",
+   "statLabel": "of memory",
+   "narration": "Fact number seventeen! Crows can recognize human faces, and they remember people who treated them badly. Scientists found that crows can hold a grudge for years, and even teach other crows who to watch out for!"
+  },
+  {
+   "title": "Honey that never spoils",
+   "stat": "3000",
+   "statLabel": "years old",
+   "narration": "Fact number eighteen! Honey almost never goes bad. Archaeologists found pots of honey in ancient Egyptian tombs that were around three thousand years old, and it was still perfectly preserved. Thank you, bees!"
+  },
+  {
+   "title": "Dads give birth",
+   "stat": "Dad",
+   "statLabel": "gives birth",
+   "narration": "Fact number nineteen! In seahorses, it's the dad who gives birth! The mom puts her eggs in a special pouch on the dad's belly. He carries them until they hatch, and then hundreds of tiny baby seahorses swim out!"
+  },
+  {
+   "title": "Three hearts and blue blood",
+   "stat": "3",
+   "statLabel": "hearts",
+   "narration": "Fact number twenty! Octopuses have three hearts and blue blood. Two hearts pump blood to the gills, and one pumps it to the rest of the body. Their blood is blue because it uses copper instead of iron!"
+  },
+  {
+   "title": "Older than trees",
+   "stat": "450M",
+   "statLabel": "years",
+   "narration": "Fact number twenty-one! Sharks are older than trees! Sharks have been swimming in the oceans for about four hundred fifty million years. The first trees appeared around sixty million years later!"
+  },
+  {
+   "title": "The oldest animal alive",
+   "stat": "~400",
+   "statLabel": "years",
+   "narration": "Fact number twenty-two! The Greenland shark can live for about four hundred years! It grows only about one centimeter per year. Some Greenland sharks swimming today were born before the United States even existed!"
+  },
+  {
+   "title": "Cube-shaped poop",
+   "stat": "Cubes",
+   "statLabel": "cube poop",
+   "narration": "Fact number twenty-three! Wombats poop cubes! Yes, really, their poop comes out shaped like little squares. Scientists think the cubes don't roll away, so wombats can stack them to mark their territory. Nature is weird!"
+  },
+  {
+   "title": "Survivors in space",
+   "stat": "Space",
+   "statLabel": "survivors",
+   "narration": "Fact number twenty-four! Tardigrades, also called water bears, are tiny animals that can survive almost anything. Freezing cold, boiling heat, and even the vacuum of outer space! In two thousand seven, scientists sent them to space, and many came back alive!"
+  },
+  {
+   "title": "The immortal jellyfish",
+   "stat": "Forever?",
+   "statLabel": "lifespan?",
+   "narration": "Fact number twenty-five! There's a jellyfish that can basically live forever! The immortal jellyfish can turn itself back into a baby when it gets old or hurt, and then start its life all over again. It's like pressing a restart button on life!"
+  }
+ ]
+}

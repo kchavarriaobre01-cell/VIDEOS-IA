@@ -1,0 +1,785 @@
+{
+ "intro": [
+  {
+   "src": "images/animalfacts/animal-lion-africa-nature-wildlife-savanna-safari-predator-c.jpg",
+   "credit": "Jaco Beukman",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Animal_Lion_Africa_Nature_Wildlife_Savanna_Safari_Predator_Cat_Landscape_(257023085).jpeg",
+   "title": "File:Animal Lion Africa Nature Wildlife Savanna Safari Predator Cat Landscape (257023085).jpeg",
+   "w": 1280,
+   "h": 1920
+  },
+  {
+   "src": "images/animalfacts/african-elephant-walking-jpg.jpg",
+   "credit": "Stephen Jacobs (Why Steve)",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:African_elephant_walking.jpg",
+   "title": "File:African elephant walking.jpg",
+   "w": 1280,
+   "h": 952
+  },
+  {
+   "src": "images/animalfacts/cheetah-chase-jpg.jpg",
+   "credit": "Hein waschefort",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cheetah_chase.jpg",
+   "title": "File:Cheetah chase.jpg",
+   "w": 960,
+   "h": 498
+  },
+  {
+   "src": "images/animalfacts/savanna-towards-the-south-east-from-the-south-of-taita-hills.jpg",
+   "credit": "CT Cooper",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Savanna_towards_the_south-east_from_the_south_of_Taita_Hills_Game_Lodge_within_the_Taita_Hills_Wildlife_Sanctuary_in_Kenya_3.jpg",
+   "title": "File:Savanna towards the south-east from the south of Taita Hills Game Lodge within the Taita Hills Wildlife Sanctuary in Kenya 3.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f01": [
+  {
+   "src": "images/animalfacts/flamingos-in-h-rmetci-reeds-jpg.jpg",
+   "credit": "Ramazancirakoglu",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Flamingos_in_H%C3%B6rmetci_reeds.jpg",
+   "title": "File:Flamingos in Hörmetci reeds.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/flock-of-flamingos-in-kenya-jpg.jpg",
+   "credit": "AlexanderMirschel",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Flock_of_flamingos_in_Kenya.jpg",
+   "title": "File:Flock of flamingos in Kenya.jpg",
+   "w": 1280,
+   "h": 721
+  },
+  {
+   "src": "images/animalfacts/mixed-flock-of-lesser-and-greater-flamingos-in-kenya-jpg.jpg",
+   "credit": "AlexanderMirschel",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mixed_flock_of_Lesser_and_Greater_Flamingos_in_Kenya.jpg",
+   "title": "File:Mixed flock of Lesser and Greater Flamingos in Kenya.jpg",
+   "w": 1280,
+   "h": 721
+  }
+ ],
+ "f02": [
+  {
+   "src": "images/animalfacts/flamingo-feeding-frenzy-geograph-org-uk-1449656-jpg.jpg",
+   "credit": "Lis Burke",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Flamingo_feeding_frenzy_-_geograph.org.uk_-_1449656.jpg",
+   "title": "File:Flamingo feeding frenzy - geograph.org.uk - 1449656.jpg",
+   "w": 500,
+   "h": 375
+  },
+  {
+   "src": "images/animalfacts/lesser-flamingo-juvenile-feeding-amsm3016-jpg.jpg",
+   "credit": "Savithri Singh",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_Flamingo_Juvenile_Feeding_AMSM3016.jpg",
+   "title": "File:Lesser Flamingo Juvenile Feeding AMSM3016.jpg",
+   "w": 500,
+   "h": 599
+  },
+  {
+   "src": "images/animalfacts/flamingo-feeding-time-23966747109-jpg.jpg",
+   "credit": "Eric Kilby from Somerville, MA, USA",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Flamingo_Feeding_Time_(23966747109).jpg",
+   "title": "File:Flamingo Feeding Time (23966747109).jpg",
+   "w": 1280,
+   "h": 1918
+  }
+ ],
+ "f03": [
+  {
+   "src": "images/animalfacts/computerhotline-danaus-plexippus-by-3-jpg.jpg",
+   "credit": "Thomas Bresson",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:ComputerHotline_-_Danaus_plexippus_(by)_(3).jpg",
+   "title": "File:ComputerHotline - Danaus plexippus (by) (3).jpg",
+   "w": 1280,
+   "h": 1370
+  },
+  {
+   "src": "images/animalfacts/butterfly-on-a-yellow-flower-in-macro-unsplash-jpg.jpg",
+   "credit": "Boris Smokrovic borisworkshop",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Butterfly_on_a_yellow_flower_in_macro_(Unsplash).jpg",
+   "title": "File:Butterfly on a yellow flower in macro (Unsplash).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/danaus-plexippus-7-jpg.jpg",
+   "credit": "Thomas Bresson",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Danaus_plexippus_(7).jpg",
+   "title": "File:Danaus plexippus (7).jpg",
+   "w": 1280,
+   "h": 756
+  }
+ ],
+ "f04": [
+  {
+   "src": "images/animalfacts/close-up-portrait-of-a-domestic-cat-gazing-upwards-jpg.jpg",
+   "credit": "Godwin Borg",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Close-up_portrait_of_a_domestic_cat,_gazing_upwards.jpg",
+   "title": "File:Close-up portrait of a domestic cat, gazing upwards.jpg",
+   "w": 1280,
+   "h": 914
+  },
+  {
+   "src": "images/animalfacts/black-cat-close-up-8385441616-jpg.jpg",
+   "credit": "Sheila Sund from Salem, United States",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Black_cat_close-up_(8385441616).jpg",
+   "title": "File:Black cat close-up (8385441616).jpg",
+   "w": 1280,
+   "h": 1280
+  },
+  {
+   "src": "images/animalfacts/kali-the-calico-cat-close-up-jpg.jpg",
+   "credit": "Vuerqex at English Wikipedia",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kali_the_Calico_Cat_(close_up).jpg",
+   "title": "File:Kali the Calico Cat (close up).jpg",
+   "w": 1280,
+   "h": 960
+  }
+ ],
+ "f05": [
+  {
+   "src": "images/animalfacts/african-bull-elephant-walking-towards-camera-in-august-2013-.jpg",
+   "credit": "Candy Piercy",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg",
+   "title": "File:African Bull elephant walking towards camera in August 2013.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/african-elephant-walking-in-grass-with-calf-dpla-5f1db5d93d4.jpg",
+   "credit": "Warren Garst",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:African_elephant_walking_in_grass_with_calf_-_DPLA_-_5f1db5d93d4fd59fc5aaa58077ec0205.jpg",
+   "title": "File:African elephant walking in grass with calf - DPLA - 5f1db5d93d4fd59fc5aaa58077ec0205.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/elephant-walking-2404463675-jpg.jpg",
+   "credit": "William Warby from London, England",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Elephant_Walking_(2404463675).jpg",
+   "title": "File:Elephant Walking (2404463675).jpg",
+   "w": 1280,
+   "h": 960
+  }
+ ],
+ "f06": [
+  {
+   "src": "images/animalfacts/sleeping-koala-6730983867-jpg.jpg",
+   "credit": "Alex Proimos from Sydney, Australia",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sleeping_Koala_(6730983867).jpg",
+   "title": "File:Sleeping Koala (6730983867).jpg",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "src": "images/animalfacts/sa-sleeping-koala-jpg.jpg",
+   "credit": "Sanjay ach",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sa-sleeping-koala.JPG",
+   "title": "File:Sa-sleeping-koala.JPG",
+   "w": 1280,
+   "h": 1920
+  },
+  {
+   "src": "images/animalfacts/koala-sleeping-edit-jpg.jpg",
+   "credit": "Luciano Roth Coelho",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Koala_sleeping-edit.jpg",
+   "title": "File:Koala sleeping-edit.jpg",
+   "w": 1280,
+   "h": 1823
+  }
+ ],
+ "f07": [
+  {
+   "src": "images/animalfacts/sea-otters-holding-hands-jpg.jpg",
+   "credit": "Joe Robertson from Austin, Texas, USA.",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sea_otters_holding_hands.jpg",
+   "title": "File:Sea otters holding hands.jpg",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "src": "images/animalfacts/sea-otters-vancouver-aquarium-jpg.jpg",
+   "credit": "Pburka at English Wikipedia",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Sea_Otters_(Vancouver_Aquarium).JPG",
+   "title": "File:Sea Otters (Vancouver Aquarium).JPG",
+   "w": 1280,
+   "h": 857
+  },
+  {
+   "src": "images/animalfacts/wild-sea-otter-17348235490-jpg.jpg",
+   "credit": "Rennett Stowe from USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wild_Sea_Otter_(17348235490).jpg",
+   "title": "File:Wild Sea Otter (17348235490).jpg",
+   "w": 1280,
+   "h": 892
+  }
+ ],
+ "f08": [
+  {
+   "src": "images/animalfacts/penguins-nests-52156992129-jpg.jpg",
+   "credit": "David Stanley from Nanaimo, Canada",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Penguins_Nests_(52156992129).jpg",
+   "title": "File:Penguins Nests (52156992129).jpg",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "src": "images/animalfacts/00-1206-breeding-colony-of-gentoo-penguins-jpg.jpg",
+   "credit": "W. Bulach",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:00_1206_Breeding_colony_of_Gentoo_Penguins.jpg",
+   "title": "File:00 1206 Breeding colony of Gentoo Penguins.jpg",
+   "w": 1280,
+   "h": 1000
+  },
+  {
+   "src": "images/animalfacts/gentoo-penguins-in-the-falklands-jpg.jpg",
+   "credit": "David Stanley from Nanaimo, Canada",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gentoo_Penguins_in_the_Falklands.jpg",
+   "title": "File:Gentoo Penguins in the Falklands.jpg",
+   "w": 960,
+   "h": 720
+  }
+ ],
+ "f09": [
+  {
+   "src": "images/animalfacts/young-great-horned-owl-30699171857-jpg.jpg",
+   "credit": "Great Sand Dunes National Park and Preserve",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Young_Great_Horned_Owl_(30699171857).jpg",
+   "title": "File:Young Great Horned Owl (30699171857).jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/great-horned-owl-in-cottonwood-tree-54428798785-jpg.jpg",
+   "credit": "Great Sand Dunes National Park and Preserve",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Horned_Owl_in_Cottonwood_Tree_(54428798785).jpg",
+   "title": "File:Great Horned Owl in Cottonwood Tree (54428798785).jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/great-horned-owl-evening-37903083162-jpg.jpg",
+   "credit": "Great Sand Dunes National Park and Preserve",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_Horned_Owl,_Evening_(37903083162).jpg",
+   "title": "File:Great Horned Owl, Evening (37903083162).jpg",
+   "w": 1280,
+   "h": 960
+  }
+ ],
+ "f10": [
+  {
+   "src": "images/animalfacts/giraffe-sticking-out-tongue-01-jpg.jpg",
+   "credit": "Bilby",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Giraffe_sticking_out_tongue_01.jpg",
+   "title": "File:Giraffe sticking out tongue 01.jpg",
+   "w": 1280,
+   "h": 1920
+  },
+  {
+   "src": "images/animalfacts/giraffe-tongue-2135895611-jpg.jpg",
+   "credit": "Marcus Quigmire from Florida, USA",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Giraffe_Tongue_(2135895611).jpg",
+   "title": "File:Giraffe Tongue (2135895611).jpg",
+   "w": 1280,
+   "h": 720
+  },
+  {
+   "src": "images/animalfacts/giraffe-head-jpg.jpg",
+   "credit": "Postdlf",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Giraffe_(head).jpg",
+   "title": "File:Giraffe (head).jpg",
+   "w": 500,
+   "h": 375
+  }
+ ],
+ "f11": [
+  {
+   "src": "images/animalfacts/giraffe-ithala-kzn-south-africa-luca-galuzzi-2004-jpg.jpg",
+   "credit": "Luca Galuzzi (Lucag)",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG",
+   "title": "File:Giraffe Ithala KZN South Africa Luca Galuzzi 2004.JPG",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/giraffe-with-neck-bowed-jpg.jpg",
+   "credit": "Eric Kilby",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Giraffe_With_Neck_Bowed.jpg",
+   "title": "File:Giraffe With Neck Bowed.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/184-angolan-giraffe-licking-its-nose-in-etosha-national-park.jpg",
+   "credit": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:184_Angolan_giraffe_licking_its_nose_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+   "title": "File:184 Angolan giraffe licking its nose in Etosha National Park Photo by Giles Laurent.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f12": [
+  {
+   "src": "images/animalfacts/hummingbird-hovering-in-flight-jpg.jpg",
+   "credit": "Jonathan Rodgers",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hummingbird_hovering_in_flight.jpg",
+   "title": "File:Hummingbird hovering in flight.jpg",
+   "w": 960,
+   "h": 892
+  },
+  {
+   "src": "images/animalfacts/male-ruby-throated-hummingbird-hovering-jpg.jpg",
+   "credit": "Pslawinski",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Male_Ruby-Throated_Hummingbird_Hovering.jpg",
+   "title": "File:Male Ruby-Throated Hummingbird Hovering.jpg",
+   "w": 1280,
+   "h": 1280
+  },
+  {
+   "src": "images/animalfacts/hover-hummingbird-51504757545-jpg.jpg",
+   "credit": "Savannah River Site",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Hover_Hummingbird_(51504757545).jpg",
+   "title": "File:Hover Hummingbird (51504757545).jpg",
+   "w": 1280,
+   "h": 1024
+  }
+ ],
+ "f13": [
+  {
+   "src": "images/animalfacts/namibia-otjiwarongo-cheetah-conservation-fund-cheetah-jumpin.jpg",
+   "credit": "Alexander Klink",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Namibia_Otjiwarongo_Cheetah_Conservation_Fund_Cheetah_Jumping_While_Running.jpg",
+   "title": "File:Namibia Otjiwarongo Cheetah Conservation Fund Cheetah Jumping While Running.jpg",
+   "w": 1280,
+   "h": 855
+  },
+  {
+   "src": "images/animalfacts/cheetah-run-jpg.jpg",
+   "credit": "Mark Dumont",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Cheetah_Run.jpg",
+   "title": "File:Cheetah Run.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/sarah-cheetah-jpg.jpg",
+   "credit": "Gregory Wilson",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sarah_(cheetah).jpg",
+   "title": "File:Sarah (cheetah).jpg",
+   "w": 1280,
+   "h": 725
+  }
+ ],
+ "f14": [
+  {
+   "src": "images/animalfacts/polar-bear-adf-jpg.jpg",
+   "credit": "Arturo de Frias Marques",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Polar_Bear_AdF.jpg",
+   "title": "File:Polar Bear AdF.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/polar-bear-with-its-tongue-sticking-out-jpg.jpg",
+   "credit": "Christopher Michel",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Polar_Bear_with_its_tongue_sticking_out.jpg",
+   "title": "File:Polar Bear with its tongue sticking out.jpg",
+   "w": 1280,
+   "h": 854
+  },
+  {
+   "src": "images/animalfacts/polar-bear-after-unlucky-hunt-for-a-seal-jpg.jpg",
+   "credit": "Andreas Weith",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Polar_bear_after_unlucky_hunt_for_a_seal.jpg",
+   "title": "File:Polar bear after unlucky hunt for a seal.jpg",
+   "w": 1280,
+   "h": 720
+  }
+ ],
+ "f15": [
+  {
+   "src": "images/animalfacts/asterias-rubens-jpg.jpg",
+   "credit": "Hans Hillewaert",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Asterias_rubens.jpg",
+   "title": "File:Asterias rubens.jpg",
+   "w": 960,
+   "h": 761
+  },
+  {
+   "src": "images/animalfacts/reef-starfish-stichaster-australis-doing-push-ups-jpg.jpg",
+   "credit": "Avenue",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Reef_starfish_(Stichaster_australis)_doing_push-ups.jpg",
+   "title": "File:Reef starfish (Stichaster australis) doing push-ups.jpg",
+   "w": 1280,
+   "h": 911
+  },
+  {
+   "src": "images/animalfacts/asterias-rubens-410375762-jpg.jpg",
+   "credit": "Julien Renoult",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Asterias_rubens_410375762.jpg",
+   "title": "File:Asterias rubens 410375762.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f16": [
+  {
+   "src": "images/animalfacts/common-bottlenose-dolphin-jumping-jpg.jpg",
+   "credit": "NOAA Fisheries",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_bottlenose_dolphin_jumping.jpg",
+   "title": "File:Common bottlenose dolphin jumping.jpg",
+   "w": 500,
+   "h": 330
+  },
+  {
+   "src": "images/animalfacts/010-atlantic-bottlenose-dolphin-jumping-at-pelican-point-pho.jpg",
+   "credit": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:010_Atlantic_bottlenose_dolphin_jumping_at_Pelican_point_Photo_by_Giles_Laurent.jpg",
+   "title": "File:010 Atlantic bottlenose dolphin jumping at Pelican point Photo by Giles Laurent.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/common-bottlenose-dolphin-face-jpg.jpg",
+   "credit": "NOAA Fisheries",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_bottlenose_dolphin_face.jpg",
+   "title": "File:Common bottlenose dolphin face.jpg",
+   "w": 500,
+   "h": 333
+  }
+ ],
+ "f17": [
+  {
+   "src": "images/animalfacts/2014-04-29-01-northwestern-crow-corvus-brachyrhynchos-caurin.jpg",
+   "credit": "Gordon Leggett",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-04-29_01_Northwestern_crow_(Corvus_brachyrhynchos_caurinus).jpg",
+   "title": "File:2014-04-29 01 Northwestern crow (Corvus brachyrhynchos caurinus).jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/pd106514-arw-american-crow-scavenges-discarded-christmas-coo.jpg",
+   "credit": "Paul Danese",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:PD106514-ARW_american_crow_scavenges_discarded_christmas_cookie_from_trash.jpg",
+   "title": "File:PD106514-ARW american crow scavenges discarded christmas cookie from trash.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/corvus-brachyrhynchos-ul-04-jpg.jpg",
+   "credit": "Cephas",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Corvus_brachyrhynchos_UL_04.jpg",
+   "title": "File:Corvus brachyrhynchos UL 04.jpg",
+   "w": 1280,
+   "h": 853
+  }
+ ],
+ "f18": [
+  {
+   "src": "images/animalfacts/western-honey-bee-on-a-honeycomb-jpg.jpg",
+   "credit": "Matthew T Rader",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_on_a_honeycomb.jpg",
+   "title": "File:Western honey bee on a honeycomb.jpg",
+   "w": 1280,
+   "h": 974
+  },
+  {
+   "src": "images/animalfacts/giant-honey-bees-and-honeycomb-12-jpg.jpg",
+   "credit": "Pinakpani",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Giant_honey_bees_and_Honeycomb_12.jpg",
+   "title": "File:Giant honey bees and Honeycomb 12.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/beekeeping-in-a-bee-suit-while-holding-a-honeycomb-from-a-be.jpg",
+   "credit": "Matthew T Rader",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Beekeeping_in_a_bee_suit_while_holding_a_honeycomb_from_a_beehive.jpg",
+   "title": "File:Beekeeping in a bee suit while holding a honeycomb from a beehive.jpg",
+   "w": 1280,
+   "h": 851
+  }
+ ],
+ "f19": [
+  {
+   "src": "images/animalfacts/seahorse-skeleton-macro-8-jpg.jpg",
+   "credit": "“Jon Zander (Digon3)\"",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Seahorse_Skeleton_Macro_8.JPG",
+   "title": "File:Seahorse Skeleton Macro 8.JPG",
+   "w": 1280,
+   "h": 1707
+  },
+  {
+   "src": "images/animalfacts/hippocampus-hippocampus-on-ascophyllum-nodosum-jpg.jpg",
+   "credit": "Hans Hillewaert",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_(on_Ascophyllum_nodosum).jpg",
+   "title": "File:Hippocampus hippocampus (on Ascophyllum nodosum).jpg",
+   "w": 1280,
+   "h": 1707
+  },
+  {
+   "src": "images/animalfacts/diagram-of-a-pregnant-male-seahorse-png.jpg",
+   "credit": "Qiang Lin et al.",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Diagram_of_a_pregnant_male_seahorse.png",
+   "title": "File:Diagram of a pregnant male seahorse.png",
+   "w": 330,
+   "h": 330
+  }
+ ],
+ "f20": [
+  {
+   "src": "images/animalfacts/octopus-in-the-new-england-aquarium-jpg.jpg",
+   "credit": "Betty Wills (Atsme)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Octopus_in_the_New_England_Aquarium.jpg",
+   "title": "File:Octopus in the New England Aquarium.jpg",
+   "w": 1280,
+   "h": 1296
+  },
+  {
+   "src": "images/animalfacts/octopus-marginatus-jpg.jpg",
+   "credit": "Nhobgood Nick Hobgood",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Octopus_marginatus.jpg",
+   "title": "File:Octopus marginatus.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/octopus-vulgaris-merculiano-jpg.jpg",
+   "credit": "Comingio Merculiano",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Octopus_vulgaris_Merculiano.jpg",
+   "title": "File:Octopus vulgaris Merculiano.jpg",
+   "w": 1280,
+   "h": 1422
+  }
+ ],
+ "f21": [
+  {
+   "src": "images/animalfacts/white-shark-jpg.jpg",
+   "credit": "Terry Goss",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:White_shark.jpg",
+   "title": "File:White shark.jpg",
+   "w": 960,
+   "h": 668
+  },
+  {
+   "src": "images/animalfacts/great-white-shark-14730796397-jpg.jpg",
+   "credit": "Elias Levy",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Great_White_Shark_(14730796397).jpg",
+   "title": "File:Great White Shark (14730796397).jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/carcharodon-carcharias-skeleton-flipped-jpg.jpg",
+   "credit": "AnonymousUnknown author",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Carcharodon_carcharias_skeleton_(flipped).jpg",
+   "title": "File:Carcharodon carcharias skeleton (flipped).jpg",
+   "w": 960,
+   "h": 346
+  }
+ ],
+ "f22": [
+  {
+   "src": "images/animalfacts/somniosus-microcephalus-with-ommatokoita-png.jpg",
+   "credit": "Hemming1952",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Somniosus_microcephalus_with_Ommatokoita.png",
+   "title": "File:Somniosus microcephalus with Ommatokoita.png",
+   "w": 500,
+   "h": 333
+  },
+  {
+   "src": "images/animalfacts/somniosus-microcephalus-okeanos-jpg.jpg",
+   "credit": "NOAA Okeanos Explorer Program",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Somniosus_microcephalus_okeanos.jpg",
+   "title": "File:Somniosus microcephalus okeanos.jpg",
+   "w": 960,
+   "h": 540
+  },
+  {
+   "src": "images/animalfacts/greenland-shark-profile-jpg.jpg",
+   "credit": "Hemming1952",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Greenland_shark_profile.jpg",
+   "title": "File:Greenland shark profile.jpg",
+   "w": 1280,
+   "h": 854
+  }
+ ],
+ "f23": [
+  {
+   "src": "images/animalfacts/vombatus-ursinus-maria-island-national-park-jpg.jpg",
+   "credit": "JJ Harrison",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+   "title": "File:Vombatus ursinus -Maria Island National Park.jpg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/wombat-vombatus-ursinus-poo-jpg.jpg",
+   "credit": "PooMuseum",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wombat_(Vombatus_ursinus)_Poo.jpg",
+   "title": "File:Wombat (Vombatus ursinus) Poo.jpg",
+   "w": 1280,
+   "h": 1054
+  },
+  {
+   "src": "images/animalfacts/common-wombat-vombatus-ursinus-tasmaniensis-juvenile-maria-i.jpg",
+   "credit": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Common_wombat_(Vombatus_ursinus_tasmaniensis)_juvenile_Maria_Island.jpg",
+   "title": "File:Common wombat (Vombatus ursinus tasmaniensis) juvenile Maria Island.jpg",
+   "w": 1280,
+   "h": 1114
+  }
+ ],
+ "f24": [
+  {
+   "src": "images/animalfacts/sem-image-of-milnesium-tardigradum-in-active-state-journal-p.jpg",
+   "credit": "Schokraie E. et al.",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2.png",
+   "title": "File:SEM image of Milnesium tardigradum in active state - journal.pone.0045682.g001-2.png",
+   "w": 1280,
+   "h": 981
+  },
+  {
+   "src": "images/animalfacts/tardigrade-acutuncus-antarcticus-jpg.jpg",
+   "credit": "Guidetti, Roberto",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tardigrade_Acutuncus_Antarcticus.jpg",
+   "title": "File:Tardigrade Acutuncus Antarcticus.jpg",
+   "w": 500,
+   "h": 358
+  },
+  {
+   "src": "images/animalfacts/tardigrade-under-microscope-jpg.jpg",
+   "credit": "DSparrow14",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tardigrade_under_microscope.jpg",
+   "title": "File:Tardigrade under microscope.jpg",
+   "w": 1280,
+   "h": 1160
+  }
+ ],
+ "f25": [
+  {
+   "src": "images/animalfacts/turritopsisdohrnii-jpeg.jpg",
+   "credit": "Dr. Karen J. Osborn",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Turritopsisdohrnii.jpeg",
+   "title": "File:Turritopsisdohrnii.jpeg",
+   "w": 1280,
+   "h": 853
+  },
+  {
+   "src": "images/animalfacts/turritopsis-nutricula-kamo-jpg.jpg",
+   "credit": "Totti",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Turritopsis_nutricula_Kamo.jpg",
+   "title": "File:Turritopsis nutricula Kamo.jpg",
+   "w": 1280,
+   "h": 960
+  },
+  {
+   "src": "images/animalfacts/fmib-41675-turritopsis-nutricula-jpeg.jpg",
+   "credit": "Charles Wesley Hargitt",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:FMIB_41675_Turritopsis_nutricula.jpeg",
+   "title": "File:FMIB 41675 Turritopsis nutricula.jpeg",
+   "w": 500,
+   "h": 436
+  }
+ ],
+ "outro": [
+  {
+   "src": "images/animalfacts/zebra-standing-in-a-lush-ugandan-savanna-in-lake-mburo-natio.jpg",
+   "credit": "Sandra Aceng",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Zebra_standing_in_a_lush_Ugandan_savanna_in_Lake_Mburo_National_Park_11.jpg",
+   "title": "File:Zebra standing in a lush Ugandan savanna in Lake Mburo National Park 11.jpg",
+   "w": 960,
+   "h": 720
+  },
+  {
+   "src": "images/animalfacts/two-zebras-walking-in-a-lush-ugandan-savanna-in-lake-mburo-n.jpg",
+   "credit": "Sandra Aceng",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Two_Zebras_walking_in_a_lush_Ugandan_savanna_in_Lake_Mburo_National_Park_30.jpg",
+   "title": "File:Two Zebras walking in a lush Ugandan savanna in Lake Mburo National Park 30.jpg",
+   "w": 960,
+   "h": 720
+  }
+ ]
+}
